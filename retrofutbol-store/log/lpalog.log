@@ -1,0 +1,959 @@
+[2025-09-12T04:33:25.053Z] Request: GET / - IP: ::1
+[2025-09-12T04:33:31.124Z] Request: GET /shirts/4 - IP: ::1
+[2025-09-12T04:33:35.083Z] Request: GET /admin - IP: ::1
+[2025-09-12T04:33:35.097Z] Request: GET /login - IP: ::1
+[2025-09-12T04:33:37.294Z] Request: GET / - IP: ::1
+[2025-09-12T04:33:46.069Z] Request: GET /shirts - IP: ::1
+[2025-09-12T04:33:57.882Z] Request: GET /shirts?q=nacional - IP: ::1
+[2025-09-12T04:34:04.038Z] Request: GET /shirts?q=brasil - IP: ::1
+[2025-09-12T04:34:07.954Z] Request: GET /cart - IP: ::1
+[2025-09-12T04:34:09.523Z] Request: GET /shirts - IP: ::1
+[2025-09-12T04:34:23.731Z] Request: POST /login - IP: ::1
+[2025-09-12T04:34:33.084Z] Request: POST /login - IP: ::1
+[2025-09-12T04:34:38.672Z] Request: GET /customer/login - IP: ::1
+[2025-09-12T04:34:46.999Z] Request: POST /customer/login - IP: ::1
+[2025-09-12T04:35:25.839Z] Request: GET / - IP: ::1
+[2025-09-12T04:35:32.539Z] Request: GET /customer/login - IP: ::1
+[2025-09-12T04:36:26.939Z] Request: POST /customer/login - IP: ::1
+[2025-09-12T04:36:56.921Z] Request: POST /shirts/add-to-cart/4 - IP: ::1
+[2025-09-12T04:36:56.935Z] Request: GET /cart - IP: ::1
+[2025-09-12T04:36:59.524Z] Request: GET /checkout - IP: ::1
+[2025-09-12T04:37:12.929Z] Request: POST /checkout/confirm - IP: ::1
+[2025-09-12T04:37:12.940Z] Request: GET /payment - IP: ::1
+[2025-09-12T04:37:22.411Z] Request: POST /payment - IP: ::1
+[2025-09-12T04:37:27.129Z] Request: GET /customer/logout - IP: ::1
+[2025-09-12T04:37:37.913Z] Request: GET /shirts - IP: ::1
+[2025-09-12T04:37:50.233Z] Request: GET /shirts - IP: ::1
+[2025-09-12T04:37:53.864Z] Request: GET /cart - IP: ::1
+[2025-09-12T04:37:55.104Z] Request: GET /shirts - IP: ::1
+[2025-09-12T04:37:59.152Z] Request: GET /shirts/1 - IP: ::1
+[2025-09-12T04:38:05.707Z] Request: POST /shirts/add-to-cart/1 - IP: ::1
+[2025-09-12T04:38:05.721Z] Request: GET /cart - IP: ::1
+[2025-09-12T04:38:15.656Z] Request: GET /checkout/payment - IP: ::1
+[2025-09-12T04:38:18.616Z] Request: GET /checkout - IP: ::1
+[2025-09-12T04:38:22.350Z] Request: POST /checkout/confirm - IP: ::1
+[2025-09-12T04:38:22.360Z] Request: GET /customer/login - IP: ::1
+[2025-09-12T04:38:29.798Z] Request: POST /customer/login - IP: ::1
+[2025-09-12T04:39:05.217Z] Request: POST /customer/login - IP: ::1
+[2025-09-12T04:44:31.586Z] Request: GET /cart - IP: ::1
+[2025-09-12T04:44:34.409Z] Request: GET /checkout - IP: ::1
+[2025-09-12T04:44:37.287Z] Request: GET / - IP: ::1
+[2025-09-12T04:44:39.096Z] Request: GET /shirts - IP: ::1
+[2025-09-12T04:44:41.855Z] Request: GET / - IP: ::1
+[2025-09-12T04:44:54.351Z] Request: GET /shirts/4 - IP: ::1
+[2025-09-12T04:45:01.343Z] Request: POST /shirts/add-to-cart/4 - IP: ::1
+[2025-09-12T04:45:01.355Z] Request: GET /cart - IP: ::1
+[2025-09-12T04:45:09.675Z] Request: POST /cart/update - IP: ::1
+[2025-09-12T04:45:09.685Z] Request: GET /cart - IP: ::1
+[2025-09-12T04:45:13.772Z] Request: POST /cart/update - IP: ::1
+[2025-09-12T04:45:13.786Z] Request: GET /cart - IP: ::1
+[2025-09-12T04:45:14.590Z] Request: POST /cart/update - IP: ::1
+[2025-09-12T04:45:14.602Z] Request: GET /cart - IP: ::1
+[2025-09-12T04:45:15.879Z] Request: POST /cart/update - IP: ::1
+[2025-09-12T04:45:15.890Z] Request: GET /cart - IP: ::1
+[2025-09-12T04:45:16.294Z] Request: POST /cart/update - IP: ::1
+[2025-09-12T04:45:16.306Z] Request: GET /cart - IP: ::1
+[2025-09-12T04:45:16.718Z] Request: POST /cart/update - IP: ::1
+[2025-09-12T04:45:16.728Z] Request: GET /cart - IP: ::1
+[2025-09-12T04:45:18.248Z] Request: GET /checkout/payment - IP: ::1
+[2025-09-12T04:45:21.152Z] Request: GET /checkout - IP: ::1
+[2025-09-12T04:45:22.869Z] Request: POST /checkout/update - IP: ::1
+[2025-09-12T04:45:27.868Z] Request: POST /checkout/remove/1-L - IP: ::1
+[2025-09-12T04:45:48.160Z] Request: POST /customer/login - IP: ::1
+[2025-09-12T04:45:59.880Z] Request: POST /customer/login - IP: ::1
+[2025-09-12T04:46:40.753Z] Request: POST /login - IP: ::1
+[2025-09-12T04:46:48.025Z] Request: GET /cart - IP: ::1
+[2025-09-12T04:46:49.859Z] Request: GET /customer/logout - IP: ::1
+[2025-09-12T04:46:53.410Z] Request: GET /shirts - IP: ::1
+[2025-09-12T04:46:57.676Z] Request: GET /customer/login - IP: ::1
+[2025-09-12T04:47:16.199Z] Request: POST /login - IP: ::1
+[2025-09-12T04:47:23.677Z] Request: POST /login - IP: ::1
+[2025-09-12T04:48:29.122Z] Request: POST /login - IP: ::1
+[2025-09-12T04:48:56.128Z] Request: POST /login - IP: ::1
+[2025-09-12T04:49:10.086Z] Request: POST /login - IP: ::1
+[2025-09-12T04:49:22.461Z] Request: POST /login - IP: ::1
+[2025-09-12T04:49:34.148Z] Request: POST /customer/login - IP: ::1
+[2025-09-12T04:49:42.946Z] Request: POST /customer/login - IP: ::1
+[2025-09-12T04:50:12.065Z] Request: POST /checkout/confirm - IP: ::1
+[2025-09-12T04:50:12.086Z] Request: GET /payment - IP: ::1
+[2025-09-12T04:50:17.343Z] Request: POST /payment - IP: ::1
+[2025-09-12T04:50:17.358Z] Request: GET /checkout - IP: ::1
+[2025-09-12T04:50:20.831Z] Request: GET /shirts - IP: ::1
+[2025-09-12T04:50:23.309Z] Request: GET /shirts/4 - IP: ::1
+[2025-09-12T04:50:29.588Z] Request: GET /cart - IP: ::1
+[2025-09-12T04:50:31.248Z] Request: GET /shirts - IP: ::1
+[2025-09-12T04:50:32.902Z] Request: GET /shirts/1 - IP: ::1
+[2025-09-12T04:50:34.742Z] Request: POST /shirts/add-to-cart/1 - IP: ::1
+[2025-09-12T04:50:34.760Z] Request: GET /cart - IP: ::1
+[2025-09-12T04:50:36.401Z] Request: GET /checkout - IP: ::1
+[2025-09-12T04:50:37.798Z] Request: POST /checkout/confirm - IP: ::1
+[2025-09-12T04:50:37.809Z] Request: GET /payment - IP: ::1
+[2025-09-12T04:50:41.576Z] Request: POST /payment - IP: ::1
+[2025-09-12T04:50:47.311Z] Request: POST /payment - IP: ::1
+[2025-09-12T04:50:52.845Z] Request: POST /payment - IP: ::1
+[2025-09-12T04:50:57.043Z] Request: POST /payment - IP: ::1
+[2025-09-12T04:51:07.060Z] Request: POST /payment - IP: ::1
+[2025-09-12T04:51:15.040Z] Request: GET /shirts - IP: ::1
+[2025-09-12T04:51:16.680Z] Request: GET /shirts/3 - IP: ::1
+[2025-09-12T04:51:18.660Z] Request: POST /shirts/add-to-cart/3 - IP: ::1
+[2025-09-12T04:51:18.673Z] Request: GET /cart - IP: ::1
+[2025-09-12T04:51:20.082Z] Request: GET /checkout - IP: ::1
+[2025-09-12T04:51:21.747Z] Request: POST /checkout/confirm - IP: ::1
+[2025-09-12T04:51:21.760Z] Request: GET /payment - IP: ::1
+[2025-09-12T04:51:24.386Z] Request: POST /payment - IP: ::1
+[2025-09-12T04:51:27.764Z] Request: POST /payment - IP: ::1
+[2025-09-12T04:51:31.790Z] Request: GET /customer/logout - IP: ::1
+[2025-09-12T04:52:02.398Z] Request: POST /payment - IP: ::1
+[2025-09-12T04:52:02.410Z] Request: GET /customer/login - IP: ::1
+[2025-09-12T04:52:09.629Z] Request: POST /customer/login - IP: ::1
+[2025-09-12T04:52:27.450Z] Request: GET /shirts/1 - IP: ::1
+[2025-09-12T04:52:31.055Z] Request: POST /shirts/add-to-cart/1 - IP: ::1
+[2025-09-12T04:52:31.067Z] Request: GET /cart - IP: ::1
+[2025-09-12T04:52:33.792Z] Request: GET /checkout/payment - IP: ::1
+[2025-09-12T04:52:37.864Z] Request: GET /checkout/payment - IP: ::1
+[2025-09-12T04:52:41.503Z] Request: GET /checkout - IP: ::1
+[2025-09-12T04:53:06.170Z] Request: GET /shirts?q=nacional - IP: ::1
+[2025-09-12T04:53:11.568Z] Request: GET /shirts?q=brasil - IP: ::1
+[2025-09-12T04:53:13.683Z] Request: GET /shirts/3 - IP: ::1
+[2025-09-12T04:53:16.833Z] Request: POST /shirts/add-to-cart/3 - IP: ::1
+[2025-09-12T04:53:16.843Z] Request: GET /cart - IP: ::1
+[2025-09-12T04:53:20.945Z] Request: GET /checkout - IP: ::1
+[2025-09-12T04:53:24.493Z] Request: POST /checkout/confirm - IP: ::1
+[2025-09-12T04:53:24.504Z] Request: GET /payment - IP: ::1
+[2025-09-12T04:53:32.618Z] Request: POST /payment - IP: ::1
+[2025-09-12T04:53:46.531Z] Request: GET /cart - IP: ::1
+[2025-09-12T04:53:58.370Z] Request: GET /customer/logout - IP: ::1
+[2025-09-12T04:54:04.307Z] Request: POST /customer/login - IP: ::1
+[2025-09-18T23:02:04.718Z] Request: GET /checkout - IP: ::1
+[2025-09-18T23:02:06.191Z] Request: GET /favicon.ico - IP: ::1
+[2025-09-18T23:02:15.131Z] Request: POST /login - IP: ::1
+[2025-09-18T23:02:20.603Z] Request: POST /customer/login - IP: ::1
+[2025-09-18T23:04:14.172Z] Request: POST /checkout/confirm - IP: ::1
+[2025-09-18T23:04:14.191Z] Request: GET /payment - IP: ::1
+[2025-09-18T23:04:20.120Z] Request: POST /payment - IP: ::1
+[2025-09-18T23:04:20.134Z] Request: GET /checkout - IP: ::1
+[2025-09-18T23:04:30.205Z] Request: GET /payment - IP: ::1
+[2025-09-18T23:04:39.025Z] Request: GET /cart - IP: ::1
+[2025-09-18T23:04:42.160Z] Request: GET /shirts - IP: ::1
+[2025-09-18T23:13:00.395Z] Request: GET /cart - IP: ::1
+[2025-09-18T23:13:06.516Z] Request: POST /checkout/confirm - IP: ::1
+[2025-09-18T23:13:06.527Z] Request: GET /payment - IP: ::1
+[2025-09-18T23:13:10.994Z] Request: GET /shirts - IP: ::1
+[2025-09-18T23:13:12.756Z] Request: GET /shirts/1 - IP: ::1
+[2025-09-18T23:13:15.877Z] Request: POST /shirts/add-to-cart/1 - IP: ::1
+[2025-09-18T23:13:15.907Z] Request: GET /cart - IP: ::1
+[2025-09-18T23:13:17.648Z] Request: GET /shirts - IP: ::1
+[2025-09-18T23:13:19.443Z] Request: GET /shirts/4 - IP: ::1
+[2025-09-18T23:13:24.267Z] Request: POST /shirts/add-to-cart/4 - IP: ::1
+[2025-09-18T23:13:24.278Z] Request: GET /cart - IP: ::1
+[2025-09-18T23:13:27.947Z] Request: GET /checkout/payment - IP: ::1
+[2025-09-18T23:13:32.514Z] Request: GET /checkout/payment - IP: ::1
+[2025-09-18T23:13:36.159Z] Request: GET /checkout - IP: ::1
+[2025-09-18T23:13:40.459Z] Request: POST /checkout/confirm - IP: ::1
+[2025-09-18T23:13:40.470Z] Request: GET /payment - IP: ::1
+[2025-09-18T23:13:45.452Z] Request: POST /payment - IP: ::1
+[2025-09-18T23:13:49.403Z] Request: POST /payment - IP: ::1
+[2025-09-18T23:13:54.505Z] Request: POST /payment - IP: ::1
+[2025-09-19T02:27:44.598Z] Request: GET / - IP: ::1
+[2025-09-19T02:42:44.348Z] Request: POST /customer/login - IP: ::1
+[2025-09-19T02:42:44.353Z] Activity: Customer login OK: customer
+[2025-09-19T02:42:44.375Z] Request: GET /checkout - IP: ::1
+[2025-09-19T02:43:11.330Z] Request: POST /customer/login - IP: ::1
+[2025-09-19T02:43:11.331Z] Activity: Customer login FAIL: admin
+[2025-09-19T02:43:18.463Z] Request: GET /login - IP: ::1
+[2025-09-19T02:43:26.631Z] Request: POST /login - IP: ::1
+[2025-09-19T02:43:26.632Z] Activity: Admin login OK: admin
+[2025-09-19T02:43:26.644Z] Request: GET /admin - IP: ::1
+[2025-09-19T02:44:43.381Z] Request: GET /customer/logout - IP: ::1
+[2025-09-19T02:44:43.382Z] Activity: Customer logout: customer
+[2025-09-19T02:44:43.393Z] Request: GET /shirts - IP: ::1
+[2025-09-19T02:55:54.561Z] Request: POST /payment - IP: ::1
+[2025-09-19T02:55:54.573Z] Request: GET /customer/login - IP: ::1
+[2025-09-19T02:56:02.300Z] Request: POST /customer/login - IP: ::1
+[2025-09-19T02:56:02.302Z] Activity: Customer login OK: customer
+[2025-09-19T02:56:02.312Z] Request: GET /checkout - IP: ::1
+[2025-09-19T02:56:06.707Z] Request: GET /shirts - IP: ::1
+[2025-09-19T02:56:09.027Z] Request: GET /cart - IP: ::1
+[2025-09-19T02:56:10.486Z] Request: GET /shirts - IP: ::1
+[2025-09-19T02:56:12.505Z] Request: GET /shirts/2 - IP: ::1
+[2025-09-19T02:56:14.865Z] Request: POST /shirts/add-to-cart/2 - IP: ::1
+[2025-09-19T02:56:14.887Z] Request: GET /cart - IP: ::1
+[2025-09-19T02:56:16.789Z] Request: GET /shirts - IP: ::1
+[2025-09-19T02:56:18.523Z] Request: GET /shirts/3 - IP: ::1
+[2025-09-19T02:56:21.085Z] Request: POST /shirts/add-to-cart/3 - IP: ::1
+[2025-09-19T02:56:21.098Z] Request: GET /cart - IP: ::1
+[2025-09-19T02:56:22.727Z] Request: GET /shirts - IP: ::1
+[2025-09-19T02:56:25.066Z] Request: GET /shirts/4 - IP: ::1
+[2025-09-19T02:56:29.596Z] Request: POST /shirts/add-to-cart/4 - IP: ::1
+[2025-09-19T02:56:29.606Z] Request: GET /cart - IP: ::1
+[2025-09-19T02:56:37.964Z] Request: GET /checkout/payment - IP: ::1
+[2025-09-19T02:56:43.593Z] Request: GET /checkout - IP: ::1
+[2025-09-19T02:56:47.860Z] Request: POST /checkout/update - IP: ::1
+[2025-09-19T02:56:47.862Z] Activity: Checkout updated quantities
+[2025-09-19T02:56:47.872Z] Request: GET /checkout - IP: ::1
+[2025-09-19T02:56:52.488Z] Request: POST /checkout/update - IP: ::1
+[2025-09-19T02:56:52.490Z] Activity: Checkout updated quantities
+[2025-09-19T02:56:52.499Z] Request: GET /checkout - IP: ::1
+[2025-09-19T02:56:53.175Z] Request: POST /checkout/update - IP: ::1
+[2025-09-19T02:56:53.176Z] Activity: Checkout updated quantities
+[2025-09-19T02:56:53.185Z] Request: GET /checkout - IP: ::1
+[2025-09-19T02:56:54.668Z] Request: POST /checkout/update - IP: ::1
+[2025-09-19T02:56:54.669Z] Activity: Checkout updated quantities
+[2025-09-19T02:56:54.681Z] Request: GET /checkout - IP: ::1
+[2025-09-19T02:56:56.584Z] Request: POST /checkout/confirm - IP: ::1
+[2025-09-19T02:56:56.596Z] Request: GET /payment - IP: ::1
+[2025-09-19T02:56:59.894Z] Request: POST /payment - IP: ::1
+[2025-09-19T02:56:59.902Z] Activity: Payment processed inv=INV1758250619895 amount=420
+[2025-09-19T02:56:59.910Z] Request: GET /complete - IP: ::1
+[2025-09-19T02:57:06.457Z] Request: GET /shirts - IP: ::1
+[2025-09-19T03:03:19.812Z] Request: GET /favicon.ico - IP: ::1
+[2025-09-19T03:03:22.578Z] Request: GET /payment - IP: ::1
+[2025-09-19T03:03:22.601Z] Request: GET /customer/login - IP: ::1
+[2025-09-19T03:06:19.020Z] Request: POST /customer/login - IP: ::1
+[2025-09-19T03:06:19.022Z] Activity: Customer login OK: customer
+[2025-09-19T03:06:19.031Z] Request: GET /checkout - IP: ::1
+[2025-09-19T03:06:21.989Z] Request: GET /shirts - IP: ::1
+[2025-09-19T03:06:29.603Z] Request: GET /shirts/1 - IP: ::1
+[2025-09-19T04:26:25.332Z] Request: GET /customer/logout - IP: ::1
+[2025-09-19T04:26:25.333Z] Activity: Customer logout: customer
+[2025-09-19T04:26:25.343Z] Request: GET /shirts - IP: ::1
+[2025-09-19T04:26:27.707Z] Request: GET /cart - IP: ::1
+[2025-09-19T04:26:30.785Z] Request: GET /customer/login - IP: ::1
+[2025-09-19T04:26:45.979Z] Request: POST /customer/login - IP: ::1
+[2025-09-19T04:26:45.980Z] Activity: Customer login OK: customer
+[2025-09-19T04:26:45.990Z] Request: GET /checkout - IP: ::1
+[2025-09-19T04:27:21.815Z] Request: GET /cart - IP: ::1
+[2025-09-19T04:27:23.798Z] Request: GET /shirts - IP: ::1
+[2025-09-19T04:30:36.673Z] Request: GET /cart - IP: ::1
+[2025-09-19T04:30:41.796Z] Request: GET /customer/logout - IP: ::1
+[2025-09-19T04:30:41.797Z] Activity: Customer logout: customer
+[2025-09-19T04:30:41.808Z] Request: GET /shirts - IP: ::1
+[2025-09-19T04:30:44.246Z] Request: GET /cart - IP: ::1
+[2025-09-19T04:30:47.197Z] Request: GET /customer/login - IP: ::1
+[2025-09-19T04:30:54.492Z] Request: POST /customer/login - IP: ::1
+[2025-09-19T04:30:54.493Z] Activity: Customer login OK: customer
+[2025-09-19T04:30:54.502Z] Request: GET /checkout - IP: ::1
+[2025-09-19T04:31:01.143Z] Request: GET /shirts - IP: ::1
+[2025-09-19T04:31:08.014Z] Request: GET /shirts?q=nacional - IP: ::1
+[2025-09-19T04:31:16.961Z] Request: GET /shirts?q=brasil - IP: ::1
+[2025-09-19T04:31:29.344Z] Request: GET /cart - IP: ::1
+[2025-09-19T04:32:32.447Z] Request: GET /shirts - IP: ::1
+[2025-09-19T04:32:35.435Z] Request: GET /cart - IP: ::1
+[2025-09-19T04:32:36.547Z] Request: GET /shirts - IP: ::1
+[2025-09-19T04:32:37.691Z] Request: GET /cart - IP: ::1
+[2025-09-19T04:32:39.247Z] Request: GET /shirts - IP: ::1
+[2025-09-19T04:32:46.648Z] Request: GET / - IP: ::1
+[2025-09-19T04:32:53.957Z] Request: GET /customer/logout - IP: ::1
+[2025-09-19T04:32:53.958Z] Activity: Customer logout: customer
+[2025-09-19T04:32:53.967Z] Request: GET /shirts - IP: ::1
+[2025-09-19T04:33:00.648Z] Request: GET / - IP: ::1
+[2025-10-16T11:05:32.675Z] Request: GET /shirts - IP: ::1
+[2025-10-16T11:05:33.039Z] Request: GET /favicon.ico - IP: ::1
+[2025-10-16T11:05:37.186Z] Request: GET / - IP: ::1
+[2025-10-16T11:05:40.920Z] Request: GET /shirts - IP: ::1
+[2025-10-16T11:05:44.381Z] Request: GET / - IP: ::1
+[2025-10-23T23:24:17.425Z] Request: GET /customer/login - IP: ::1
+[2025-10-23T23:24:17.566Z] Request: GET /favicon.ico - IP: ::1
+[2025-10-23T23:24:31.680Z] Request: POST /customer/login - IP: ::1
+[2025-10-23T23:24:31.682Z] Activity: Customer login OK: customer
+[2025-10-23T23:24:31.695Z] Request: GET /checkout - IP: ::1
+[2025-10-23T23:24:51.732Z] Request: GET /cart - IP: ::1
+[2025-10-23T23:24:54.378Z] Request: GET /shirts - IP: ::1
+[2025-10-23T23:25:09.199Z] Request: GET /shirts/1 - IP: ::1
+[2025-10-23T23:25:22.290Z] Request: POST /shirts/add-to-cart/1 - IP: ::1
+[2025-10-23T23:25:22.302Z] Request: GET /cart - IP: ::1
+[2025-10-23T23:25:34.728Z] Request: GET /shirts - IP: ::1
+[2025-10-23T23:25:36.595Z] Request: GET /shirts/5 - IP: ::1
+[2025-10-23T23:25:39.208Z] Request: POST /shirts/add-to-cart/5 - IP: ::1
+[2025-10-23T23:25:39.225Z] Request: GET /cart - IP: ::1
+[2025-10-23T23:26:52.246Z] Request: GET /checkout/payment - IP: ::1
+[2025-10-23T23:26:56.334Z] Request: GET /checkout - IP: ::1
+[2025-10-23T23:27:06.080Z] Request: POST /checkout/update - IP: ::1
+[2025-10-23T23:27:06.081Z] Activity: Checkout updated quantities
+[2025-10-23T23:27:06.091Z] Request: GET /checkout - IP: ::1
+[2025-10-23T23:27:09.492Z] Request: POST /checkout/update - IP: ::1
+[2025-10-23T23:27:09.493Z] Activity: Checkout updated quantities
+[2025-10-23T23:27:09.502Z] Request: GET /checkout - IP: ::1
+[2025-10-23T23:27:10.863Z] Request: POST /checkout/update - IP: ::1
+[2025-10-23T23:27:10.864Z] Activity: Checkout updated quantities
+[2025-10-23T23:27:10.873Z] Request: GET /checkout - IP: ::1
+[2025-10-23T23:27:11.583Z] Request: POST /checkout/remove/5-L - IP: ::1
+[2025-10-23T23:27:11.584Z] Activity: Checkout removed item 5-L
+[2025-10-23T23:27:11.593Z] Request: GET /checkout - IP: ::1
+[2025-10-23T23:27:13.852Z] Request: POST /checkout/update - IP: ::1
+[2025-10-23T23:27:13.853Z] Activity: Checkout updated quantities
+[2025-10-23T23:27:13.864Z] Request: GET /checkout - IP: ::1
+[2025-10-23T23:27:14.493Z] Request: POST /checkout/update - IP: ::1
+[2025-10-23T23:27:14.494Z] Activity: Checkout updated quantities
+[2025-10-23T23:27:14.502Z] Request: GET /checkout - IP: ::1
+[2025-10-23T23:27:15.662Z] Request: POST /checkout/update - IP: ::1
+[2025-10-23T23:27:15.663Z] Activity: Checkout updated quantities
+[2025-10-23T23:27:15.672Z] Request: GET /checkout - IP: ::1
+[2025-10-23T23:27:16.052Z] Request: POST /checkout/update - IP: ::1
+[2025-10-23T23:27:16.053Z] Activity: Checkout updated quantities
+[2025-10-23T23:27:16.062Z] Request: GET /checkout - IP: ::1
+[2025-10-23T23:27:43.606Z] Request: POST /checkout/update - IP: ::1
+[2025-10-23T23:27:43.607Z] Activity: Checkout updated quantities
+[2025-10-23T23:27:43.615Z] Request: GET /checkout - IP: ::1
+[2025-10-23T23:27:44.433Z] Request: POST /checkout/update - IP: ::1
+[2025-10-23T23:27:44.433Z] Activity: Checkout updated quantities
+[2025-10-23T23:27:44.444Z] Request: GET /checkout - IP: ::1
+[2025-10-23T23:27:48.270Z] Request: POST /checkout/update - IP: ::1
+[2025-10-23T23:27:48.271Z] Activity: Checkout updated quantities
+[2025-10-23T23:27:48.281Z] Request: GET /checkout - IP: ::1
+[2025-10-23T23:27:49.624Z] Request: POST /checkout/update - IP: ::1
+[2025-10-23T23:27:49.626Z] Activity: Checkout updated quantities
+[2025-10-23T23:27:49.636Z] Request: GET /checkout - IP: ::1
+[2025-10-23T23:27:50.544Z] Request: POST /checkout/update - IP: ::1
+[2025-10-23T23:27:50.545Z] Activity: Checkout updated quantities
+[2025-10-23T23:27:50.556Z] Request: GET /checkout - IP: ::1
+[2025-10-23T23:28:12.374Z] Request: POST /checkout/confirm - IP: ::1
+[2025-10-23T23:28:12.386Z] Request: GET /payment - IP: ::1
+[2025-10-23T23:31:12.458Z] Request: POST /payment - IP: ::1
+[2025-10-23T23:31:12.464Z] Activity: Payment processed inv=INV1761262272460 amount=65
+[2025-10-23T23:31:12.475Z] Request: GET /complete - IP: ::1
+[2025-10-23T23:31:17.585Z] Request: GET /shirts - IP: ::1
+[2025-10-23T23:31:25.345Z] Request: GET /cart - IP: ::1
+[2025-10-23T23:31:30.054Z] Request: GET /customer/logout - IP: ::1
+[2025-10-23T23:31:30.055Z] Activity: Customer logout: customer
+[2025-10-23T23:31:30.064Z] Request: GET /shirts - IP: ::1
+[2025-10-23T23:31:32.274Z] Request: GET /cart - IP: ::1
+[2025-10-23T23:31:33.469Z] Request: GET /customer/login - IP: ::1
+[2025-10-23T23:31:41.857Z] Request: POST /customer/login - IP: ::1
+[2025-10-23T23:31:41.858Z] Activity: Customer login FAIL: admin
+[2025-10-23T23:32:05.541Z] Request: GET /shirts - IP: ::1
+[2025-10-23T23:32:09.539Z] Request: GET /cart - IP: ::1
+[2025-10-23T23:32:10.591Z] Request: GET / - IP: ::1
+[2025-10-23T23:33:27.053Z] Request: GET /shirts/5 - IP: ::1
+[2025-10-23T23:33:42.974Z] Request: GET /customer/login - IP: ::1
+[2025-10-23T23:33:51.236Z] Request: GET /admin/login - IP: ::1
+[2025-10-23T23:33:58.090Z] Request: GET /admin - IP: ::1
+[2025-10-23T23:33:58.101Z] Request: GET /login - IP: ::1
+[2025-10-23T23:34:04.419Z] Request: POST /login - IP: ::1
+[2025-10-23T23:34:04.420Z] Activity: Admin login OK: admin
+[2025-10-23T23:34:04.433Z] Request: GET /admin - IP: ::1
+[2025-10-23T23:35:06.896Z] Request: GET /cart - IP: ::1
+[2025-10-23T23:35:12.869Z] Request: GET /customer/login - IP: ::1
+[2025-10-23T23:35:22.933Z] Request: GET /admin - IP: ::1
+[2025-10-23T23:35:32.056Z] Request: GET /cart - IP: ::1
+[2025-10-23T23:37:21.512Z] Request: GET /cart - IP: ::1
+[2025-10-23T23:37:22.787Z] Request: GET /shirts - IP: ::1
+[2025-10-24T00:01:58.843Z] Request: GET /cart - IP: ::1
+[2025-10-24T00:02:00.884Z] Request: GET /shirts - IP: ::1
+[2025-10-24T00:02:02.470Z] Request: GET /shirts/1 - IP: ::1
+[2025-10-24T00:02:08.957Z] Request: POST /shirts/add-to-cart/1 - IP: ::1
+[2025-10-24T00:02:08.966Z] Request: GET /cart - IP: ::1
+[2025-10-24T00:02:16.935Z] Request: POST /cart/update - IP: ::1
+[2025-10-24T00:02:16.947Z] Request: GET /cart - IP: ::1
+[2025-10-24T00:02:19.125Z] Request: GET /checkout - IP: ::1
+[2025-10-24T00:02:21.484Z] Request: POST /checkout/update - IP: ::1
+[2025-10-24T00:02:21.485Z] Activity: Checkout updated quantities
+[2025-10-24T00:02:21.496Z] Request: GET /checkout - IP: ::1
+[2025-10-24T00:02:22.639Z] Request: POST /checkout/confirm - IP: ::1
+[2025-10-24T00:02:22.651Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T00:02:28.312Z] Request: POST /customer/login - IP: ::1
+[2025-10-24T00:02:28.314Z] Activity: Customer login OK: customer
+[2025-10-24T00:02:28.322Z] Request: GET /checkout - IP: ::1
+[2025-10-24T00:02:31.317Z] Request: POST /checkout/confirm - IP: ::1
+[2025-10-24T00:02:31.329Z] Request: GET /payment - IP: ::1
+[2025-10-24T00:02:34.942Z] Request: POST /payment - IP: ::1
+[2025-10-24T00:02:34.945Z] Activity: Payment processed inv=INV1761264154942 amount=2275
+[2025-10-24T00:02:34.957Z] Request: GET /complete - IP: ::1
+[2025-10-24T00:02:36.965Z] Request: GET /shirts - IP: ::1
+[2025-10-24T00:02:40.978Z] Request: GET /shirts/1 - IP: ::1
+[2025-10-24T00:03:08.839Z] Request: POST /shirts/add-to-cart/1 - IP: ::1
+[2025-10-24T00:03:08.868Z] Request: GET /cart - IP: ::1
+[2025-10-24T00:03:19.428Z] Request: GET /checkout - IP: ::1
+[2025-10-24T00:03:22.339Z] Request: POST /checkout/confirm - IP: ::1
+[2025-10-24T00:03:22.349Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T00:03:30.851Z] Request: POST /customer/login - IP: ::1
+[2025-10-24T00:03:30.853Z] Activity: Customer login OK: customer
+[2025-10-24T00:03:30.863Z] Request: GET /checkout - IP: ::1
+[2025-10-24T00:03:33.680Z] Request: POST /checkout/confirm - IP: ::1
+[2025-10-24T00:03:33.690Z] Request: GET /payment - IP: ::1
+[2025-10-24T00:03:39.849Z] Request: POST /payment - IP: ::1
+[2025-10-24T00:03:39.857Z] Activity: Payment processed inv=INV1761264219850 amount=1300
+[2025-10-24T00:03:39.867Z] Request: GET /complete - IP: ::1
+[2025-10-24T00:03:41.763Z] Request: GET /shirts - IP: ::1
+[2025-10-24T00:03:44.250Z] Request: GET /shirts/1 - IP: ::1
+[2025-10-24T00:05:50.695Z] Request: GET /shirts - IP: ::1
+[2025-10-24T00:10:36.542Z] Request: GET /shirts/1 - IP: ::1
+[2025-10-24T00:10:45.271Z] Request: GET /admin/edit/1 - IP: ::1
+[2025-10-24T00:10:45.287Z] Request: GET /login - IP: ::1
+[2025-10-24T00:10:52.089Z] Request: POST /login - IP: ::1
+[2025-10-24T00:10:52.090Z] Activity: Admin login OK: admin
+[2025-10-24T00:10:52.102Z] Request: GET /admin - IP: ::1
+[2025-10-24T00:10:55.368Z] Request: GET /admin/edit/1 - IP: ::1
+[2025-10-24T00:11:03.130Z] Request: POST /admin/edit/1 - IP: ::1
+[2025-10-24T00:11:03.143Z] Request: GET /admin - IP: ::1
+[2025-10-24T00:11:08.701Z] Request: GET /shirts/1 - IP: ::1
+[2025-10-24T00:24:32.273Z] Request: GET /shirts - IP: ::1
+[2025-10-24T00:24:47.129Z] Request: GET /cart - IP: ::1
+[2025-10-24T00:24:58.670Z] Request: GET /cart - IP: ::1
+[2025-10-24T00:25:30.691Z] Request: GET / - IP: ::1
+[2025-10-24T00:25:34.516Z] Request: GET / - IP: ::1
+[2025-10-24T00:27:44.457Z] Request: GET /cart - IP: ::1
+[2025-10-24T00:27:56.249Z] Request: GET /cart - IP: ::1
+[2025-10-24T00:28:10.490Z] Request: GET /cart - IP: ::1
+[2025-10-24T00:29:08.961Z] Request: GET /shirts/1 - IP: ::1
+[2025-10-24T00:29:12.806Z] Request: GET /shirts/2 - IP: ::1
+[2025-10-24T00:29:15.648Z] Request: GET /shirts/3 - IP: ::1
+[2025-10-24T01:11:35.788Z] Request: GET /cart - IP: ::1
+[2025-10-24T01:11:38.416Z] Request: GET /cart - IP: ::1
+[2025-10-24T01:15:19.031Z] Request: GET /shirts/2 - IP: ::1
+[2025-10-24T01:15:43.712Z] Request: GET /shirts - IP: ::1
+[2025-10-24T01:15:49.482Z] Request: GET /shirts - IP: ::1
+[2025-10-24T01:15:51.069Z] Request: GET /cart - IP: ::1
+[2025-10-24T01:15:53.392Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T01:16:10.809Z] Request: GET /shirts - IP: ::1
+[2025-10-24T01:16:12.313Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T01:16:18.236Z] Request: POST /customer/login - IP: ::1
+[2025-10-24T01:16:18.238Z] Activity: Customer login OK: customer
+[2025-10-24T01:16:18.248Z] Request: GET /checkout - IP: ::1
+[2025-10-24T01:32:28.009Z] Request: POST /customer/login - IP: ::1
+[2025-10-24T01:32:28.011Z] Activity: Customer login OK: customer
+[2025-10-24T01:32:28.023Z] Request: GET /checkout - IP: ::1
+[2025-10-24T01:32:35.581Z] Request: POST /customer/login - IP: ::1
+[2025-10-24T01:32:35.583Z] Activity: Customer login OK: customer
+[2025-10-24T01:32:35.592Z] Request: GET /checkout - IP: ::1
+[2025-10-24T01:32:41.146Z] Request: GET /admin/edit/1 - IP: ::1
+[2025-10-24T01:32:41.160Z] Request: GET /login - IP: ::1
+[2025-10-24T01:32:51.977Z] Request: POST /login - IP: ::1
+[2025-10-24T01:32:51.978Z] Activity: Admin login OK: admin
+[2025-10-24T01:32:51.986Z] Request: GET /admin - IP: ::1
+[2025-10-24T01:38:12.640Z] Request: GET /shirts - IP: ::1
+[2025-10-24T01:38:14.788Z] Request: GET /shirts/1 - IP: ::1
+[2025-10-24T01:38:20.280Z] Request: GET /shirts/5 - IP: ::1
+[2025-10-24T01:38:24.059Z] Request: GET /cart - IP: ::1
+[2025-10-24T01:40:35.309Z] Request: GET / - IP: ::1
+[2025-10-24T01:40:41.961Z] Request: GET /cart - IP: ::1
+[2025-10-24T01:40:44.308Z] Request: GET / - IP: ::1
+[2025-10-24T01:40:47.616Z] Request: GET / - IP: ::1
+[2025-10-24T01:40:49.834Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T01:42:49.559Z] Request: GET /shirts/1 - IP: ::1
+[2025-10-24T01:43:30.450Z] Request: GET /shirts?q=nacional - IP: ::1
+[2025-10-24T01:43:36.966Z] Request: GET /shirts?q=brasil - IP: ::1
+[2025-10-24T01:43:42.261Z] Request: GET /shirts?q=BRASIL - IP: ::1
+[2025-10-24T01:43:48.284Z] Request: GET /shirts?q=ARGENTINA - IP: ::1
+[2025-10-24T01:43:52.781Z] Request: GET /shirts?q= - IP: ::1
+[2025-10-24T01:43:58.113Z] Request: GET /shirts - IP: ::1
+[2025-10-24T01:44:00.263Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T01:44:25.412Z] Request: GET /shirts/5 - IP: ::1
+[2025-10-24T01:50:27.322Z] Request: GET / - IP: ::1
+[2025-10-24T01:57:21.493Z] Request: GET /shirts/1 - IP: ::1
+[2025-10-24T01:57:29.589Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T01:57:35.106Z] Request: POST /customer/login - IP: ::1
+[2025-10-24T01:57:35.108Z] Activity: Customer login OK: customer
+[2025-10-24T01:57:35.120Z] Request: GET /checkout - IP: ::1
+[2025-10-24T01:57:39.817Z] Request: GET /shirts - IP: ::1
+[2025-10-24T01:57:42.058Z] Request: GET /cart - IP: ::1
+[2025-10-24T01:57:43.974Z] Request: GET /cart - IP: ::1
+[2025-10-24T01:57:46.506Z] Request: GET /customer/logout - IP: ::1
+[2025-10-24T01:57:46.508Z] Activity: Customer logout: customer
+[2025-10-24T01:57:46.518Z] Request: GET /shirts - IP: ::1
+[2025-10-24T01:57:48.465Z] Request: GET /cart - IP: ::1
+[2025-10-24T01:57:49.410Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T01:57:55.295Z] Request: GET /shirts - IP: ::1
+[2025-10-24T01:57:59.713Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T01:58:09.771Z] Request: POST /customer/login - IP: ::1
+[2025-10-24T01:58:09.773Z] Activity: Customer login FAIL: admin
+[2025-10-24T01:58:19.490Z] Request: GET / - IP: ::1
+[2025-10-24T01:58:28.206Z] Request: GET /shirts - IP: ::1
+[2025-10-24T01:58:29.561Z] Request: GET / - IP: ::1
+[2025-10-24T01:58:32.001Z] Request: GET / - IP: ::1
+[2025-10-24T01:58:33.958Z] Request: GET /shirts - IP: ::1
+[2025-10-24T01:58:35.748Z] Request: GET / - IP: ::1
+[2025-10-24T01:58:36.718Z] Request: GET /cart - IP: ::1
+[2025-10-24T01:58:37.901Z] Request: GET /shirts - IP: ::1
+[2025-10-24T01:58:39.562Z] Request: GET /cart - IP: ::1
+[2025-10-24T01:58:40.630Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T01:58:45.822Z] Request: GET /shirts - IP: ::1
+[2025-10-24T01:58:52.921Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T02:00:12.025Z] Request: GET /shirts - IP: ::1
+[2025-10-24T02:00:14.136Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T02:00:17.111Z] Request: GET /cart - IP: ::1
+[2025-10-24T02:00:18.936Z] Request: GET /shirts - IP: ::1
+[2025-10-24T02:00:20.287Z] Request: GET / - IP: ::1
+[2025-10-24T02:03:54.654Z] Request: GET /cart - IP: ::1
+[2025-10-24T02:03:56.227Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T02:04:02.496Z] Request: GET / - IP: ::1
+[2025-10-24T02:08:32.890Z] Request: GET /admin - IP: ::1
+[2025-10-24T02:08:32.900Z] Request: GET /login - IP: ::1
+[2025-10-24T02:08:42.245Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T02:12:05.091Z] Request: POST /customer/login - IP: ::1
+[2025-10-24T02:12:05.093Z] Activity: Customer login OK: customer
+[2025-10-24T02:12:05.105Z] Request: GET /checkout - IP: ::1
+[2025-10-24T02:12:18.898Z] Request: POST /login - IP: ::1
+[2025-10-24T02:12:18.900Z] Activity: Admin login OK: admin
+[2025-10-24T02:12:18.910Z] Request: GET /admin - IP: ::1
+[2025-10-24T02:12:30.931Z] Request: GET /admin - IP: ::1
+[2025-10-24T02:12:33.194Z] Request: GET /logout - IP: ::1
+[2025-10-24T02:12:33.195Z] Activity: Admin logout: admin
+[2025-10-24T02:12:33.205Z] Request: GET / - IP: ::1
+[2025-10-24T02:12:37.910Z] Request: GET /customer/logout - IP: ::1
+[2025-10-24T02:12:37.911Z] Activity: Customer logout: customer
+[2025-10-24T02:12:37.923Z] Request: GET /shirts - IP: ::1
+[2025-10-24T02:21:07.471Z] Request: GET /shirts - IP: ::1
+[2025-10-24T02:21:11.154Z] Request: GET /shirts/4 - IP: ::1
+[2025-10-24T02:21:20.543Z] Request: GET / - IP: ::1
+[2025-10-24T03:10:49.287Z] Request: GET / - IP: ::1
+[2025-10-24T03:10:53.560Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T03:10:58.250Z] Request: GET /login - IP: ::1
+[2025-10-24T03:11:06.975Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T03:12:00.899Z] Request: GET / - IP: ::1
+[2025-10-24T03:12:04.131Z] Request: GET /login - IP: ::1
+[2025-10-24T03:12:06.996Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T03:12:11.082Z] Request: GET /login - IP: ::1
+[2025-10-24T03:12:14.330Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T03:12:22.931Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T03:12:27.295Z] Request: POST /customer/login - IP: ::1
+[2025-10-24T03:12:27.297Z] Activity: Customer login OK: customer
+[2025-10-24T03:12:27.304Z] Request: GET /checkout - IP: ::1
+[2025-10-24T03:12:30.201Z] Request: GET /customer/logout - IP: ::1
+[2025-10-24T03:12:30.202Z] Activity: Customer logout: customer
+[2025-10-24T03:12:30.212Z] Request: GET /shirts - IP: ::1
+[2025-10-24T03:12:32.664Z] Request: GET /cart - IP: ::1
+[2025-10-24T03:12:34.570Z] Request: GET /login - IP: ::1
+[2025-10-24T03:12:40.261Z] Request: POST /login - IP: ::1
+[2025-10-24T03:12:40.262Z] Activity: Admin login OK: admin
+[2025-10-24T03:12:40.271Z] Request: GET /admin - IP: ::1
+[2025-10-24T03:12:47.060Z] Request: GET /admin - IP: ::1
+[2025-10-24T03:12:50.905Z] Request: GET /cart - IP: ::1
+[2025-10-24T03:12:53.009Z] Request: GET /admin - IP: ::1
+[2025-10-24T03:12:53.984Z] Request: GET /shirts - IP: ::1
+[2025-10-24T03:12:56.939Z] Request: GET /shirts - IP: ::1
+[2025-10-24T03:12:58.437Z] Request: GET /cart - IP: ::1
+[2025-10-24T03:12:59.399Z] Request: GET /admin - IP: ::1
+[2025-10-24T03:13:00.274Z] Request: GET /logout - IP: ::1
+[2025-10-24T03:13:00.275Z] Activity: Admin logout: admin
+[2025-10-24T03:13:00.287Z] Request: GET / - IP: ::1
+[2025-10-24T03:17:07.899Z] Request: GET /admin - IP: ::1
+[2025-10-24T03:17:07.909Z] Request: GET /login - IP: ::1
+[2025-10-24T03:17:17.981Z] Request: POST /login - IP: ::1
+[2025-10-24T03:17:17.981Z] Activity: Admin login OK: admin
+[2025-10-24T03:17:17.992Z] Request: GET /admin - IP: ::1
+[2025-10-24T03:17:22.272Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T03:17:29.280Z] Request: POST /customer/login - IP: ::1
+[2025-10-24T03:17:29.281Z] Activity: Customer login OK: customer
+[2025-10-24T03:17:29.292Z] Request: GET /checkout - IP: ::1
+[2025-10-24T03:17:32.085Z] Request: GET /admin - IP: ::1
+[2025-10-24T03:17:38.849Z] Request: GET /logout - IP: ::1
+[2025-10-24T03:17:38.850Z] Activity: Admin logout: admin
+[2025-10-24T03:17:38.862Z] Request: GET / - IP: ::1
+[2025-10-24T03:17:43.188Z] Request: GET /login - IP: ::1
+[2025-10-24T03:17:45.213Z] Request: GET /customer/logout - IP: ::1
+[2025-10-24T03:17:45.214Z] Activity: Customer logout: customer
+[2025-10-24T03:17:45.223Z] Request: GET /shirts - IP: ::1
+[2025-10-24T03:21:16.530Z] Request: GET /cart - IP: ::1
+[2025-10-24T03:21:17.788Z] Request: GET / - IP: ::1
+[2025-10-24T03:21:23.801Z] Request: GET /shirts - IP: ::1
+[2025-10-24T03:21:26.925Z] Request: GET /shirts - IP: ::1
+[2025-10-24T03:21:29.002Z] Request: GET /shirts/5 - IP: ::1
+[2025-10-24T03:23:58.973Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T03:24:02.555Z] Request: GET /shirts - IP: ::1
+[2025-10-24T03:25:25.338Z] Request: GET /shirts - IP: ::1
+[2025-10-24T03:25:29.156Z] Request: GET /shirts/3 - IP: ::1
+[2025-10-24T03:26:03.935Z] Request: GET / - IP: ::1
+[2025-10-24T03:32:46.550Z] Request: GET / - IP: ::1
+[2025-10-24T03:32:47.316Z] Request: GET /images/hero.jpg - IP: ::1
+[2025-10-24T03:32:58.155Z] Request: GET /shirts - IP: ::1
+[2025-10-24T03:34:41.171Z] Request: GET / - IP: ::1
+[2025-10-24T03:36:53.615Z] Request: GET /shirts - IP: ::1
+[2025-10-24T03:36:56.205Z] Request: GET /shirts - IP: ::1
+[2025-10-24T03:36:57.729Z] Request: GET / - IP: ::1
+[2025-10-24T03:37:51.211Z] Request: GET / - IP: ::1
+[2025-10-24T03:37:52.547Z] Request: GET / - IP: ::1
+[2025-10-24T03:37:54.755Z] Request: GET /shirts - IP: ::1
+[2025-10-24T03:38:22.143Z] Request: GET / - IP: ::1
+[2025-10-24T04:06:44.890Z] Request: GET / - IP: ::1
+[2025-10-24T04:07:00.559Z] Request: GET / - IP: ::1
+[2025-10-24T04:08:04.612Z] Request: GET / - IP: ::1
+[2025-10-24T04:08:19.208Z] Request: GET /cart - IP: ::1
+[2025-10-24T04:08:21.646Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:08:23.341Z] Request: GET /cart - IP: ::1
+[2025-10-24T04:08:24.247Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T04:08:26.688Z] Request: GET / - IP: ::1
+[2025-10-24T04:13:16.063Z] Request: GET / - IP: ::1
+[2025-10-24T04:15:54.094Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:15:58.085Z] Request: GET /cart - IP: ::1
+[2025-10-24T04:16:00.247Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:16:04.361Z] Request: GET / - IP: ::1
+[2025-10-24T04:16:06.222Z] Request: GET /login - IP: ::1
+[2025-10-24T04:16:12.135Z] Request: POST /login - IP: ::1
+[2025-10-24T04:16:12.137Z] Activity: Admin login OK: admin
+[2025-10-24T04:16:12.148Z] Request: GET /admin - IP: ::1
+[2025-10-24T04:18:03.561Z] Request: GET /admin/add - IP: ::1
+[2025-10-24T04:19:37.219Z] Request: GET / - IP: ::1
+[2025-10-24T04:19:42.114Z] Request: GET /admin - IP: ::1
+[2025-10-24T04:19:47.867Z] Request: GET /logout - IP: ::1
+[2025-10-24T04:19:47.868Z] Activity: Admin logout: admin
+[2025-10-24T04:19:47.901Z] Request: GET / - IP: ::1
+[2025-10-24T04:19:49.844Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T04:19:54.827Z] Request: POST /customer/login - IP: ::1
+[2025-10-24T04:19:54.829Z] Activity: Customer login OK: customer
+[2025-10-24T04:19:54.845Z] Request: GET /checkout - IP: ::1
+[2025-10-24T04:19:58.182Z] Request: GET / - IP: ::1
+[2025-10-24T04:20:05.759Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:20:15.698Z] Request: GET / - IP: ::1
+[2025-10-24T04:20:31.712Z] Request: GET /customer/logout - IP: ::1
+[2025-10-24T04:20:31.714Z] Activity: Customer logout: customer
+[2025-10-24T04:20:31.725Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:20:45.810Z] Request: GET / - IP: ::1
+[2025-10-24T04:33:54.862Z] Request: GET / - IP: ::1
+[2025-10-24T04:33:56.447Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:34:19.793Z] Request: GET /shirts?q=ARGENTINA&year=1986&size=&min=&max=&sort= - IP: ::1
+[2025-10-24T04:34:47.247Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:34:57.069Z] Request: GET /shirts?q=nacional&year=2016&size=&min=&max=&sort= - IP: ::1
+[2025-10-24T04:35:04.707Z] Request: GET /shirts?q=nacional&year=&size=&min=&max=&sort=price_asc - IP: ::1
+[2025-10-24T04:35:10.227Z] Request: GET /shirts?q=nacional&year=&size=&min=&max=&sort=price_desc - IP: ::1
+[2025-10-24T04:35:15.926Z] Request: GET /shirts?q=nacional&year=&size=&min=&max=&sort=year_desc - IP: ::1
+[2025-10-24T04:35:20.962Z] Request: GET /shirts?q=nacional&year=&size=&min=&max=&sort=year_asc - IP: ::1
+[2025-10-24T04:35:25.708Z] Request: GET /shirts?q=nacional&year=&size=&min=&max=&sort=name_asc - IP: ::1
+[2025-10-24T04:35:34.242Z] Request: GET /shirts?q=nacional&year=&size=&min=&max=&sort=price_asc - IP: ::1
+[2025-10-24T04:35:37.050Z] Request: GET /shirts?q=nacional&year=&size=&min=&max=&sort=price_desc - IP: ::1
+[2025-10-24T04:35:39.388Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:36:09.173Z] Request: GET / - IP: ::1
+[2025-10-24T04:36:13.978Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:36:59.247Z] Request: GET /shirts?q=BRASIL&year=&size=&min=&max=&sort= - IP: ::1
+[2025-10-24T04:37:03.405Z] Request: GET /shirts?q=BRASIL&year=&size=&min=&max=&sort= - IP: ::1
+[2025-10-24T04:37:07.329Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:37:10.130Z] Request: GET /shirts?q=nacional&year=&size=&min=&max=&sort= - IP: ::1
+[2025-10-24T04:37:13.792Z] Request: GET /shirts?q=nacional&year=2016&size=&min=&max=&sort= - IP: ::1
+[2025-10-24T04:37:16.933Z] Request: GET /shirts?q=nacional&year=1989&size=&min=&max=&sort= - IP: ::1
+[2025-10-24T04:37:21.437Z] Request: GET /shirts?q=nacional&year=1990&size=&min=&max=&sort= - IP: ::1
+[2025-10-24T04:37:26.904Z] Request: GET /shirts?q=nacional&year=2016&size=&min=&max=&sort= - IP: ::1
+[2025-10-24T04:37:29.710Z] Request: GET /shirts?q=nacional&year=1986&size=&min=&max=&sort= - IP: ::1
+[2025-10-24T04:37:32.338Z] Request: GET /shirts?q=nacional&year=&size=&min=&max=&sort= - IP: ::1
+[2025-10-24T04:37:36.251Z] Request: GET /shirts?q=nacional&year=&size=&min=&max=&sort=price_asc - IP: ::1
+[2025-10-24T04:37:41.922Z] Request: GET /shirts?q=nacional&year=&size=&min=&max=&sort=price_desc - IP: ::1
+[2025-10-24T04:37:43.222Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:38:07.197Z] Request: GET / - IP: ::1
+[2025-10-24T04:41:02.554Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:41:06.427Z] Request: GET / - IP: ::1
+[2025-10-24T04:46:38.038Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:47:09.346Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:47:25.742Z] Request: GET /shirts?q=nacional&year=&size=&min=&max=&sort= - IP: ::1
+[2025-10-24T04:47:29.020Z] Request: GET /shirts?q=nacional&year=&size=&min=&max=&sort=price_asc - IP: ::1
+[2025-10-24T04:47:32.486Z] Request: GET /shirts?q=nacional&year=&size=&min=&max=&sort=price_desc - IP: ::1
+[2025-10-24T04:47:36.311Z] Request: GET /shirts?q=nacional&year=2016&size=&min=&max=&sort=price_desc - IP: ::1
+[2025-10-24T04:47:39.887Z] Request: GET /shirts?q=nacional&year=1986&size=&min=&max=&sort=price_desc - IP: ::1
+[2025-10-24T04:47:42.965Z] Request: GET /shirts?q=nacional&year=1990&size=&min=&max=&sort=price_desc - IP: ::1
+[2025-10-24T04:47:46.814Z] Request: GET /shirts?q=nacional&year=2016&size=&min=&max=&sort=price_desc - IP: ::1
+[2025-10-24T04:47:48.827Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:48:38.563Z] Request: GET / - IP: ::1
+[2025-10-24T04:49:38.354Z] Request: GET /login - IP: ::1
+[2025-10-24T04:49:44.647Z] Request: POST /login - IP: ::1
+[2025-10-24T04:49:44.649Z] Activity: Admin login OK: admin
+[2025-10-24T04:49:44.662Z] Request: GET /admin - IP: ::1
+[2025-10-24T04:50:11.370Z] Request: GET /logout - IP: ::1
+[2025-10-24T04:50:11.371Z] Activity: Admin logout: admin
+[2025-10-24T04:50:11.380Z] Request: GET / - IP: ::1
+[2025-10-24T04:50:17.495Z] Request: GET /customer/login - IP: ::1
+[2025-10-24T04:50:25.891Z] Request: POST /customer/login - IP: ::1
+[2025-10-24T04:50:25.893Z] Activity: Customer login OK: customer
+[2025-10-24T04:50:25.902Z] Request: GET /checkout - IP: ::1
+[2025-10-24T04:50:30.474Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:50:32.124Z] Request: GET /shirts/4 - IP: ::1
+[2025-10-24T04:50:39.236Z] Request: POST /shirts/add-to-cart/4 - IP: ::1
+[2025-10-24T04:50:39.247Z] Request: GET /cart - IP: ::1
+[2025-10-24T04:50:40.918Z] Request: GET /checkout - IP: ::1
+[2025-10-24T04:50:43.050Z] Request: POST /checkout/update - IP: ::1
+[2025-10-24T04:50:43.052Z] Activity: Checkout updated quantities (validated with stock)
+[2025-10-24T04:50:43.062Z] Request: GET /checkout - IP: ::1
+[2025-10-24T04:50:43.802Z] Request: POST /checkout/confirm - IP: ::1
+[2025-10-24T04:50:43.812Z] Request: GET /payment - IP: ::1
+[2025-10-24T04:50:46.793Z] Request: POST /payment - IP: ::1
+[2025-10-24T04:50:46.800Z] Activity: Payment processed inv=INV1761281446795 amount=180
+[2025-10-24T04:50:46.820Z] Request: GET /complete - IP: ::1
+[2025-10-24T04:50:59.158Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:51:01.621Z] Request: GET /shirts/4 - IP: ::1
+[2025-10-24T04:55:57.481Z] Request: GET / - IP: ::1
+[2025-10-24T04:55:59.675Z] Request: GET /shirts/4 - IP: ::1
+[2025-10-24T04:57:07.020Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:57:09.272Z] Request: GET /shirts/2 - IP: ::1
+[2025-10-24T04:57:15.226Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:57:18.455Z] Request: GET /shirts/3 - IP: ::1
+[2025-10-24T04:57:23.689Z] Request: GET /shirts - IP: ::1
+[2025-10-24T04:57:27.387Z] Request: GET /shirts/1 - IP: ::1
+[2025-10-24T05:55:56.586Z] Request: GET /shirts - IP: ::1
+[2025-10-24T05:56:06.937Z] Request: GET /shirts?q=nacional&year=&size=&min=&max=&sort= - IP: ::1
+[2025-10-24T05:56:09.366Z] Request: GET /shirts - IP: ::1
+[2025-10-24T05:56:13.247Z] Request: GET /shirts/1 - IP: ::1
+[2025-10-26T09:00:13.696Z] Request: GET /customer/logout - IP: ::1
+[2025-10-26T09:00:13.703Z] Activity: Customer logout: unknown
+[2025-10-26T09:00:13.729Z] Request: GET /shirts - IP: ::1
+[2025-10-26T09:00:26.999Z] Request: GET / - IP: ::1
+[2025-10-26T09:06:50.359Z] Request: GET /favicon.ico - IP: ::1
+[2025-10-26T09:08:12.624Z] Request: GET /shirts - IP: ::1
+[2025-10-26T09:08:15.274Z] Request: GET /cart - IP: ::1
+[2025-10-26T09:08:17.710Z] Request: GET /shirts - IP: ::1
+[2025-10-26T09:17:38.354Z] Request: GET / - IP: ::1
+[2025-10-26T09:34:07.623Z] Request: GET /favicon.ico - IP: ::1
+[2025-10-26T09:58:36.816Z] Request: GET /shirts - IP: ::1
+[2025-10-26T09:58:40.797Z] Request: GET /shirts/4 - IP: ::1
+[2025-10-26T09:58:48.446Z] Request: POST /shirts/add-to-cart/4 - IP: ::1
+[2025-10-26T09:58:48.460Z] Request: GET /cart - IP: ::1
+[2025-10-26T09:58:59.431Z] Request: GET /checkout - IP: ::1
+[2025-10-26T09:59:02.898Z] Request: POST /checkout/update - IP: ::1
+[2025-10-26T09:59:02.901Z] Activity: Checkout updated quantities (validated with stock)
+[2025-10-26T09:59:02.911Z] Request: GET /checkout - IP: ::1
+[2025-10-26T09:59:04.922Z] Request: POST /checkout/update - IP: ::1
+[2025-10-26T09:59:04.923Z] Activity: Checkout updated quantities (validated with stock)
+[2025-10-26T09:59:04.933Z] Request: GET /checkout - IP: ::1
+[2025-10-26T09:59:05.372Z] Request: POST /checkout/update - IP: ::1
+[2025-10-26T09:59:05.374Z] Activity: Checkout updated quantities (validated with stock)
+[2025-10-26T09:59:05.384Z] Request: GET /checkout - IP: ::1
+[2025-10-26T09:59:06.658Z] Request: POST /checkout/update - IP: ::1
+[2025-10-26T09:59:06.659Z] Activity: Checkout updated quantities (validated with stock)
+[2025-10-26T09:59:06.668Z] Request: GET /checkout - IP: ::1
+[2025-10-26T09:59:07.472Z] Request: POST /checkout/update - IP: ::1
+[2025-10-26T09:59:07.473Z] Activity: Checkout updated quantities (validated with stock)
+[2025-10-26T09:59:07.483Z] Request: GET /checkout - IP: ::1
+[2025-10-26T09:59:08.715Z] Request: POST /checkout/confirm - IP: ::1
+[2025-10-26T09:59:08.730Z] Request: GET /customer/login - IP: ::1
+[2025-10-26T09:59:13.732Z] Request: POST /customer/login - IP: ::1
+[2025-10-26T09:59:13.734Z] Activity: Customer login OK: customer
+[2025-10-26T09:59:13.742Z] Request: GET /checkout - IP: ::1
+[2025-10-26T09:59:15.579Z] Request: POST /checkout/confirm - IP: ::1
+[2025-10-26T09:59:15.589Z] Request: GET /payment - IP: ::1
+[2025-10-26T09:59:24.371Z] Request: POST /payment - IP: ::1
+[2025-10-26T09:59:24.380Z] Activity: Payment processed inv=INV1761472764373 amount=180
+[2025-10-26T09:59:24.391Z] Request: GET /complete - IP: ::1
+[2025-10-26T09:59:34.172Z] Request: GET / - IP: ::1
+[2025-10-26T09:59:38.665Z] Request: GET /customer/logout - IP: ::1
+[2025-10-26T09:59:38.667Z] Activity: Customer logout: customer
+[2025-10-26T09:59:38.677Z] Request: GET /shirts - IP: ::1
+[2025-10-26T09:59:40.441Z] Request: GET / - IP: ::1
+[2025-10-30T12:27:41.743Z] Request: GET / - IP: ::1
+[2025-10-30T12:27:43.179Z] Request: GET /favicon.ico - IP: ::1
+[2025-10-30T12:27:48.863Z] Request: GET /shirts - IP: ::1
+[2025-10-30T12:27:52.944Z] Request: GET /shirts - IP: ::1
+[2025-10-30T12:27:56.212Z] Request: GET / - IP: ::1
+[2025-10-30T12:27:59.748Z] Request: GET /shirts - IP: ::1
+[2025-10-30T23:31:14.103Z] Request: GET / - IP: ::1
+[2025-10-30T23:32:55.215Z] Request: GET /shirts - IP: ::1
+[2025-10-30T23:36:39.488Z] Request: GET / - IP: ::1
+[2025-10-30T23:36:48.148Z] Request: GET /shirts - IP: ::1
+[2025-10-30T23:36:51.951Z] Request: GET / - IP: ::1
+[2025-10-30T23:42:50.184Z] Request: GET /shirts - IP: ::1
+[2025-10-30T23:50:06.466Z] Request: GET /favicon.ico - IP: ::1
+[2025-10-30T23:50:54.015Z] Request: GET /login - IP: ::1
+[2025-10-30T23:50:59.871Z] Request: POST /login - IP: ::1
+[2025-10-30T23:50:59.872Z] Activity: Admin login OK: admin
+[2025-10-30T23:50:59.886Z] Request: GET /admin - IP: ::1
+[2025-10-30T23:51:14.760Z] Request: GET / - IP: ::1
+[2025-10-30T23:51:24.571Z] Request: GET / - IP: ::1
+[2025-10-30T23:51:25.946Z] Request: GET /admin - IP: ::1
+[2025-10-30T23:51:27.154Z] Request: GET / - IP: ::1
+[2025-10-30T23:51:32.315Z] Request: GET /shirts - IP: ::1
+[2025-10-30T23:51:33.154Z] Request: GET /cart - IP: ::1
+[2025-10-30T23:51:38.193Z] Request: GET /shirts - IP: ::1
+[2025-10-30T23:51:39.698Z] Request: GET /admin - IP: ::1
+[2025-10-30T23:53:28.189Z] Request: GET / - IP: ::1
+[2025-10-31T00:06:46.028Z] Request: GET /favicon.ico - IP: ::1
+[2025-10-31T00:10:57.535Z] Request: GET /logout - IP: ::1
+[2025-10-31T00:10:57.536Z] Activity: Admin logout: unknown
+[2025-10-31T00:10:57.546Z] Request: GET / - IP: ::1
+[2025-10-31T00:11:00.253Z] Request: GET /customer/login - IP: ::1
+[2025-10-31T00:11:05.737Z] Request: POST /customer/login - IP: ::1
+[2025-10-31T00:11:05.740Z] Activity: Customer login OK: customer
+[2025-10-31T00:11:05.751Z] Request: GET /checkout - IP: ::1
+[2025-10-31T00:11:09.042Z] Request: GET / - IP: ::1
+[2025-10-31T00:11:11.968Z] Request: GET /cart - IP: ::1
+[2025-10-31T00:11:16.249Z] Request: GET / - IP: ::1
+[2025-10-31T00:11:17.927Z] Request: GET /shirts - IP: ::1
+[2025-10-31T00:11:18.721Z] Request: GET /cart - IP: ::1
+[2025-10-31T00:11:20.705Z] Request: GET /shirts - IP: ::1
+[2025-10-31T00:11:23.544Z] Request: GET /customer/logout - IP: ::1
+[2025-10-31T00:11:23.545Z] Activity: Customer logout: customer
+[2025-10-31T00:11:23.556Z] Request: GET /shirts - IP: ::1
+[2025-10-31T00:11:25.601Z] Request: GET /customer/login - IP: ::1
+[2025-10-31T00:11:30.535Z] Request: POST /customer/login - IP: ::1
+[2025-10-31T00:11:30.536Z] Activity: Customer login OK: customer
+[2025-10-31T00:11:30.545Z] Request: GET /checkout - IP: ::1
+[2025-10-31T00:11:41.040Z] Request: GET /shirts - IP: ::1
+[2025-10-31T00:17:54.054Z] [ACTIVITY] [::1] GET /customer/logout
+[2025-10-31T00:17:54.058Z] [ACTIVITY] [unknown] Customer logout: unknown
+[2025-10-31T00:17:54.104Z] [ACTIVITY] [::1] GET /shirts
+[2025-10-31T00:17:56.311Z] [ACTIVITY] [::1] GET /customer/login
+[2025-10-31T00:18:04.424Z] [ACTIVITY] [::1] POST /customer/login
+[2025-10-31T00:18:04.427Z] [ACTIVITY] [unknown] Customer login OK: customer
+[2025-10-31T00:18:06.458Z] [ACTIVITY] [::1] GET /checkout
+[2025-10-31T00:18:10.741Z] [ACTIVITY] [::1] GET /
+[2025-10-31T00:18:18.743Z] [ACTIVITY] [::1] GET /logout
+[2025-10-31T00:18:18.745Z] [ACTIVITY] [unknown] Admin logout: unknown
+[2025-10-31T00:18:18.756Z] [ACTIVITY] [::1] GET /
+[2025-10-31T00:18:21.061Z] [ACTIVITY] [::1] GET /login
+[2025-10-31T00:18:27.798Z] [ACTIVITY] [::1] GET /customer/logout
+[2025-10-31T00:18:27.800Z] [ACTIVITY] [unknown] Customer logout: customer
+[2025-10-31T00:18:27.810Z] [ACTIVITY] [::1] GET /shirts
+[2025-10-31T00:18:30.341Z] [ACTIVITY] [::1] GET /login
+[2025-10-31T00:18:36.623Z] [ACTIVITY] [::1] POST /login
+[2025-10-31T00:18:36.624Z] [ACTIVITY] [unknown] Admin login OK: admin
+[2025-10-31T00:18:36.637Z] [ACTIVITY] [::1] GET /admin
+[2025-10-31T00:18:39.980Z] [ACTIVITY] [::1] GET /admin/add
+[2025-10-31T00:18:46.069Z] [ACTIVITY] [::1] GET /admin
+[2025-10-31T00:18:49.917Z] [ACTIVITY] [::1] GET /logout
+[2025-10-31T00:18:49.918Z] [ACTIVITY] [unknown] Admin logout: admin
+[2025-10-31T00:18:49.928Z] [ACTIVITY] [::1] GET /
+[2025-10-31T00:18:52.340Z] [ACTIVITY] [::1] GET /customer/login
+[2025-10-31T00:18:57.353Z] [ACTIVITY] [::1] POST /customer/login
+[2025-10-31T00:18:57.355Z] [ACTIVITY] [unknown] Customer login FAIL: admin
+[2025-10-31T00:27:59.197Z] [ACTIVITY] [::1] POST /customer/login
+[2025-10-31T00:27:59.199Z] [ACTIVITY] [unknown] Customer login OK: customer
+[2025-10-31T00:27:59.211Z] [ACTIVITY] [::1] GET /checkout
+[2025-10-31T00:28:02.198Z] [ACTIVITY] [::1] GET /
+[2025-10-31T00:28:07.587Z] [ACTIVITY] [::1] GET /customer/logout
+[2025-10-31T00:28:07.588Z] [ACTIVITY] [unknown] Customer logout: customer
+[2025-10-31T00:28:07.602Z] [ACTIVITY] [::1] GET /shirts
+[2025-10-31T01:10:41.387Z] [ACTIVITY] [::1] GET /
+[2025-10-31T01:12:38.906Z] [ACTIVITY] [::1] GET /customer/logout
+[2025-10-31T01:12:38.908Z] [ACTIVITY] [unknown] Customer logout: unknown
+[2025-10-31T01:12:38.919Z] [ACTIVITY] [::1] GET /shirts
+[2025-10-31T01:12:42.266Z] [ACTIVITY] [::1] GET /
+[2025-10-31T01:12:43.631Z] [ACTIVITY] [::1] GET /shirts
+[2025-10-31T01:12:48.272Z] [ACTIVITY] [::1] GET /shirts?q=nacional&year=&size=&min=&max=&sort=
+[2025-10-31T01:12:53.586Z] [ACTIVITY] [::1] GET /shirts?q=nacional&year=&size=&min=&max=&sort=price_asc
+[2025-10-31T01:12:57.449Z] [ACTIVITY] [::1] GET /shirts?q=nacional&year=&size=&min=&max=&sort=price_desc
+[2025-10-31T01:13:02.845Z] [ACTIVITY] [::1] GET /shirts
+[2025-10-31T01:13:04.708Z] [ACTIVITY] [::1] GET /shirts/1
+[2025-10-31T01:13:16.157Z] [ACTIVITY] [::1] POST /shirts/add-to-cart/1
+[2025-10-31T01:13:16.168Z] [ACTIVITY] [::1] GET /cart
+[2025-10-31T01:13:21.318Z] [ACTIVITY] [::1] GET /checkout
+[2025-10-31T01:13:23.359Z] [ACTIVITY] [::1] POST /checkout/update
+[2025-10-31T01:13:23.362Z] [ACTIVITY] [unknown] Checkout updated quantities (validated with stock)
+[2025-10-31T01:13:23.371Z] [ACTIVITY] [::1] GET /checkout
+[2025-10-31T01:13:24.557Z] [ACTIVITY] [::1] POST /checkout/update
+[2025-10-31T01:13:24.559Z] [ACTIVITY] [unknown] Checkout updated quantities (validated with stock)
+[2025-10-31T01:13:24.568Z] [ACTIVITY] [::1] GET /checkout
+[2025-10-31T01:13:25.259Z] [ACTIVITY] [::1] POST /checkout/update
+[2025-10-31T01:13:25.261Z] [ACTIVITY] [unknown] Checkout updated quantities (validated with stock)
+[2025-10-31T01:13:25.271Z] [ACTIVITY] [::1] GET /checkout
+[2025-10-31T01:13:25.743Z] [ACTIVITY] [::1] POST /checkout/update
+[2025-10-31T01:13:25.744Z] [ACTIVITY] [unknown] Checkout updated quantities (validated with stock)
+[2025-10-31T01:13:25.753Z] [ACTIVITY] [::1] GET /checkout
+[2025-10-31T01:13:26.817Z] [ACTIVITY] [::1] POST /checkout/confirm
+[2025-10-31T01:13:26.826Z] [ACTIVITY] [::1] GET /customer/login
+[2025-10-31T01:13:32.627Z] [ACTIVITY] [::1] POST /customer/login
+[2025-10-31T01:13:32.628Z] [ACTIVITY] [unknown] Customer login OK: customer
+[2025-10-31T01:13:32.638Z] [ACTIVITY] [::1] GET /checkout
+[2025-10-31T01:13:36.481Z] [ACTIVITY] [::1] POST /checkout/confirm
+[2025-10-31T01:13:36.491Z] [ACTIVITY] [::1] GET /payment
+[2025-10-31T01:13:42.222Z] [ACTIVITY] [::1] POST /payment
+[2025-10-31T01:13:42.233Z] [ACTIVITY] [unknown] Payment processed inv=INV1761873222225 amount=130
+[2025-10-31T01:13:42.246Z] [ACTIVITY] [::1] GET /complete
+[2025-10-31T01:13:51.748Z] [ACTIVITY] [::1] GET /
+[2025-10-31T01:13:55.162Z] [ACTIVITY] [::1] GET /shirts
+[2025-10-31T01:14:03.051Z] [ACTIVITY] [::1] GET /
+[2025-10-31T01:50:15.489Z] Request: GET / - IP: ::1
+[2025-10-31T01:51:41.905Z] Request: GET /shirts/1 - IP: ::1
+[2025-10-31T01:53:26.992Z] Request: GET /shirts - IP: ::1
+[2025-10-31T01:55:23.864Z] Request: GET /login - IP: ::1
+[2025-10-31T01:55:30.900Z] Request: POST /login - IP: ::1
+[2025-10-31T01:55:30.901Z] Activity: Admin login OK: admin
+[2025-10-31T01:55:30.917Z] Request: GET /admin - IP: ::1
+[2025-10-31T01:55:34.825Z] Request: GET /admin/edit/1 - IP: ::1
+[2025-10-31T01:55:51.565Z] Request: POST /admin/edit/1 - IP: ::1
+[2025-10-31T01:55:51.585Z] Request: GET /admin - IP: ::1
+[2025-10-31T01:55:56.659Z] Request: GET /shirts/1 - IP: ::1
+[2025-10-31T01:57:00.923Z] Request: GET /shirts - IP: ::1
+[2025-10-31T01:57:02.393Z] Request: GET / - IP: ::1
+[2025-10-31T02:13:36.621Z] Request: GET /logout - IP: ::1
+[2025-10-31T02:13:36.623Z] Activity: Admin logout: unknown
+[2025-10-31T02:13:36.635Z] Request: GET / - IP: ::1
+[2025-10-31T03:09:42.464Z] Request: GET / - IP: ::1
+[2025-10-31T03:09:44.377Z] Request: GET /shirts - IP: ::1
+[2025-10-31T04:27:32.808Z] Request: GET /logout - IP: ::1
+[2025-10-31T04:27:32.809Z] Activity: Admin logout: unknown
+[2025-10-31T04:27:32.821Z] Request: GET / - IP: ::1
+[2025-10-31T04:27:34.287Z] Request: GET /shirts - IP: ::1
+[2025-10-31T04:27:35.243Z] Request: GET /cart - IP: ::1
+[2025-10-31T04:27:37.481Z] Request: GET /shirts - IP: ::1
+[2025-10-31T04:30:58.854Z] Request: GET / - IP: ::1
+[2025-10-31T04:31:02.853Z] Request: GET /customer/login - IP: ::1
+[2025-10-31T04:31:10.882Z] Request: POST /customer/login - IP: ::1
+[2025-10-31T04:31:10.885Z] Activity: Customer login FAIL: admin
+[2025-11-06T23:44:43.821Z] Request: GET /favicon.ico - IP: ::1
+[2025-11-06T23:44:43.829Z] Error: NotFoundError: Not Found
+[2025-11-06T23:46:12.500Z] Request: GET /customer/login - IP: ::1
+[2025-11-06T23:46:47.531Z] Request: POST /customer/login - IP: ::1
+[2025-11-06T23:46:47.534Z] Activity: Customer login OK: customer
+[2025-11-06T23:46:47.546Z] Request: GET /checkout - IP: ::1
+[2025-11-06T23:46:52.084Z] Request: GET / - IP: ::1
+[2025-11-06T23:46:53.637Z] Request: GET /shirts - IP: ::1
+[2025-11-06T23:46:59.048Z] Request: GET /shirts/2 - IP: ::1
+[2025-11-06T23:47:02.613Z] Request: POST /shirts/add-to-cart/2 - IP: ::1
+[2025-11-06T23:47:02.627Z] Request: GET /cart - IP: ::1
+[2025-11-06T23:47:12.138Z] Request: GET /checkout - IP: ::1
+[2025-11-06T23:47:13.807Z] Request: POST /checkout/update - IP: ::1
+[2025-11-06T23:47:13.810Z] Activity: Checkout updated quantities (validated with stock)
+[2025-11-06T23:47:13.818Z] Request: GET /checkout - IP: ::1
+[2025-11-06T23:47:24.342Z] Request: POST /checkout/confirm - IP: ::1
+[2025-11-06T23:47:24.352Z] Request: GET /payment - IP: ::1
+[2025-11-06T23:47:28.649Z] Request: POST /payment - IP: ::1
+[2025-11-06T23:47:28.661Z] Activity: Payment processed inv=INV1762472848651 amount=70
+[2025-11-06T23:47:28.674Z] Request: GET /complete - IP: ::1
+[2025-11-06T23:57:53.610Z] Request: GET /shirts - IP: ::1
+[2025-11-06T23:57:54.665Z] Request: GET / - IP: ::1
+[2025-11-07T00:01:19.873Z] Request: GET /cart - IP: ::1
+[2025-11-07T00:01:22.014Z] Request: GET / - IP: ::1
+[2025-11-07T00:01:23.067Z] Request: GET /shirts - IP: ::1
+[2025-11-07T00:01:24.878Z] Request: GET /shirts/1 - IP: ::1
+[2025-11-07T00:01:29.713Z] Request: POST /shirts/add-to-cart/1 - IP: ::1
+[2025-11-07T00:01:29.721Z] Request: GET /cart - IP: ::1
+[2025-11-07T00:01:32.038Z] Request: GET /shirts - IP: ::1
+[2025-11-07T00:01:33.735Z] Request: GET /shirts/4 - IP: ::1
+[2025-11-07T00:01:35.796Z] Request: POST /shirts/add-to-cart/4 - IP: ::1
+[2025-11-07T00:01:35.803Z] Request: GET /cart - IP: ::1
+[2025-11-07T01:14:14.685Z] Request: GET /login - IP: ::1
+[2025-11-07T01:14:21.029Z] Request: POST /login - IP: ::1
+[2025-11-07T01:14:21.030Z] Activity: Admin login OK: admin
+[2025-11-07T01:14:21.040Z] Request: GET /admin - IP: ::1
+[2025-11-07T01:14:26.264Z] Request: GET / - IP: ::1
+[2025-11-07T01:15:14.280Z] Request: GET /customer/logout - IP: ::1
+[2025-11-07T01:15:14.281Z] Activity: Customer logout: customer
+[2025-11-07T01:15:14.289Z] Request: GET /shirts - IP: ::1
+[2025-11-07T01:15:18.431Z] Request: GET /admin - IP: ::1
+[2025-11-07T01:16:51.901Z] Request: GET /checkout - IP: ::1
+[2025-11-07T01:16:53.151Z] Request: POST /checkout/update - IP: ::1
+[2025-11-07T01:16:53.152Z] Activity: Checkout updated quantities (validated with stock)
+[2025-11-07T01:16:53.163Z] Request: GET /checkout - IP: ::1
+[2025-11-07T01:16:56.742Z] Request: POST /checkout/confirm - IP: ::1
+[2025-11-07T01:16:56.758Z] Request: GET /customer/login - IP: ::1
+[2025-11-07T01:17:02.222Z] Request: POST /customer/login - IP: ::1
+[2025-11-07T01:17:02.224Z] Activity: Customer login OK: customer
+[2025-11-07T01:17:02.233Z] Request: GET /checkout - IP: ::1
+[2025-11-07T01:17:05.400Z] Request: POST /checkout/confirm - IP: ::1
+[2025-11-07T01:17:05.413Z] Request: GET /payment - IP: ::1
+[2025-11-07T01:17:29.194Z] Request: POST /payment - IP: ::1
+[2025-11-07T01:17:29.201Z] Activity: Payment processed inv=INV1762478249195 amount=155
+[2025-11-07T01:17:29.212Z] Request: GET /complete - IP: ::1
+[2025-11-07T01:17:47.242Z] Request: GET /shirts - IP: ::1
+[2025-11-07T01:17:50.905Z] Request: GET /shirts/2 - IP: ::1
+[2025-11-07T01:18:05.562Z] Request: GET /admin - IP: ::1
+[2025-11-07T01:18:08.481Z] Request: GET /admin/edit/2 - IP: ::1
+[2025-11-07T01:18:15.581Z] Request: POST /admin/edit/2 - IP: ::1
+[2025-11-07T01:18:15.596Z] Request: GET /admin - IP: ::1
+[2025-11-07T01:18:19.087Z] Request: GET / - IP: ::1
+[2025-11-07T01:18:21.430Z] Request: GET /shirts/2 - IP: ::1
+[2025-11-07T01:19:17.208Z] Request: GET /cart - IP: ::1
+[2025-11-07T01:19:22.450Z] Request: GET /shirts - IP: ::1
+[2025-11-07T01:19:24.847Z] Request: GET /shirts/4 - IP: ::1
+[2025-11-07T01:19:27.013Z] Request: POST /shirts/add-to-cart/4 - IP: ::1
+[2025-11-07T01:19:27.024Z] Request: GET /cart - IP: ::1
+[2025-11-07T01:19:36.382Z] Request: GET /shirts - IP: ::1
+[2025-11-07T01:19:38.103Z] Request: GET /shirts/5 - IP: ::1
+[2025-11-07T01:19:40.320Z] Request: POST /shirts/add-to-cart/5 - IP: ::1
+[2025-11-07T01:19:40.328Z] Request: GET /cart - IP: ::1
+[2025-11-07T01:19:45.025Z] Request: GET /cart - IP: ::1
+[2025-11-07T01:19:45.903Z] Request: GET /cart - IP: ::1
+[2025-11-07T01:19:47.745Z] Request: GET /cart - IP: ::1
+[2025-11-07T01:19:49.862Z] Request: GET /shirts - IP: ::1
+[2025-11-07T01:19:51.286Z] Request: GET / - IP: ::1
+[2025-11-07T01:19:52.709Z] Request: GET /shirts - IP: ::1
+[2025-11-07T01:19:55.124Z] Request: GET /cart - IP: ::1
+[2025-11-07T01:21:31.337Z] Request: GET /admin - IP: ::1
+[2025-11-07T01:21:36.640Z] Request: GET /customer/logout - IP: ::1
+[2025-11-07T01:21:36.641Z] Activity: Customer logout: customer
+[2025-11-07T01:21:36.652Z] Request: GET /shirts - IP: ::1
+[2025-11-07T01:21:38.257Z] Request: GET /admin - IP: ::1

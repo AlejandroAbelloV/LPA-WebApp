@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carrito — Retro Futbol Store</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="/stylesheets/style.css"/>
+
+  <style>
+    .subhero{background:linear-gradient(180deg,rgba(13,110,253,.08),rgba(13,110,253,0));padding:18px 0;border-bottom:1px solid rgba(0,0,0,.06);}
+    .cart-card{border:1px solid rgba(0,0,0,.06);border-radius:16px;background:#fff;}
+    .cart-thumb{width:72px;height:72px;object-fit:cover;border-radius:8px}
+    .empty{border:1px dashed rgba(0,0,0,.12);border-radius:16px;background:#fff;}
+  </style>
+</head>
+<body>
+  <%- include('nav') %>
+
+  <section class="subhero">
+    <div class="container">
+      <h1 class="h3 m-0">Tu carrito</h1>
+      <p class="text-muted m-0">Revisa los productos antes de confirmar.</p>
+    </div>
+  </section>
+
+  <main class="container my-4">
+    <% const hasItems = (cart && cart.length > 0); %>
+
+    <% if (!hasItems) { %>
+      <div class="empty p-4 d-flex flex-column align-items-center text-center">
+        <i class="bi bi-cart-x fs-1 text-muted mb-2"></i>
+        <h5 class="mb-2">Tu carrito está vacío</h5>
+        <p class="text-muted mb-3">Explora la tienda y agrega tus camisetas favoritas.</p>
+        <a href="/shirts" class="btn btn-primary"><i class="bi bi-bag"></i> Ir a la tienda</a>
+      </div>
+    <% } else { %>
+      <div class="cart-card p-3 p-md-4">
+        <div class="table-responsive">
+          <table class="table align-middle">
+            <thead>
+              <tr>
+                <th>Producto</th>
+                <th class="text-center">Talla</th>
+                <th class="text-center">Precio</th>
+                <th class="text-center">Cantidad</th>
+                <th class="text-end">Subtotal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% let subtotal = 0; %>
+              <% cart.forEach(function(it){ 
+                   const line = it.price * it.qty; subtotal += line; %>
+                <tr>
+                  <td>
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="<%= it.image %>" alt="<%= it.name %>" class="cart-thumb"/>
+                      <div>
+                        <div class="fw-semibold"><%= it.name %></div>
+                        <div class="small text-muted">Código: <%= it.code %></div>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="text-center"><span class="badge bg-light text-dark"><%= it.selectedSize %></span></td>
+                  <td class="text-center">$<%= it.price %></td>
+                  <td class="text-center"><%= it.qty %></td>
+                  <td class="text-end fw-semibold">$<%= line %></td>
+                </tr>
+              <% }); %>
+              <tr>
+                <td colspan="4" class="text-end fw-bold">Total</td>
+                <td class="text-end fw-bold">$<%= subtotal %></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="d-flex flex-wrap justify-content-between gap-2">
+          <a href="/shirts" class="btn btn-outline-secondary"><i class="bi bi-arrow-left"></i> Seguir comprando</a>
+          <a href="/checkout" class="btn btn-primary"><i class="bi bi-check2-circle"></i> Ir a checkout</a>
+        </div>
+      </div>
+    <% } %>
+  </main>
+
+  <%- include('footer') %>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

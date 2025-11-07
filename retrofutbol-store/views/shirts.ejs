@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda - Retro Futbol Store</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+
+  <style>
+    .subhero {
+      background: linear-gradient(180deg, rgba(13,110,253,.08), rgba(13,110,253,0));
+      padding: 28px 0;
+      border-bottom: 1px solid rgba(0,0,0,.06);
+    }
+    .filter-card {
+      border: 1px solid rgba(0,0,0,.06);
+      border-radius: 14px;
+      background: #fff;
+    }
+    .product-card {
+      border: none;
+      border-radius: 16px;
+      overflow: hidden;
+      transition: transform .18s ease, box-shadow .18s ease;
+      background: #fff;
+    }
+    .product-card:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(0,0,0,.12); }
+    .product-thumb { aspect-ratio: 4/3; object-fit: cover; width: 100%; }
+    .product-body { padding: 16px 16px 18px 16px; }
+    .product-price { color: #198754; font-weight: 700; font-size: 1.05rem; }
+    .badge-year { background:#0d6efd10; color:#0d6efd; border:1px solid #0d6efd22; }
+  </style>
+</head>
+<body>
+
+  <%- include('nav') %>
+
+  <!-- SUB-HERO -->
+  <section class="subhero">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-end justify-content-between gap-2">
+        <div>
+          <h1 class="h3 m-0">Camisetas de Fútbol Retro</h1>
+          <p class="text-muted m-0"><%= total %> resultado(s)</p>
+        </div>
+        <a href="/shirts" class="btn btn-sm btn-outline-secondary">Reiniciar filtros</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILTROS -->
+  <section class="container my-4">
+    <form method="GET" action="/shirts" class="filter-card p-3 p-md-4">
+      <div class="row g-3 align-items-end">
+        <div class="col-12 col-md-4">
+          <label class="form-label">Buscar</label>
+          <input type="text" name="q" value="<%= filters.q || '' %>" placeholder="Equipo, año, descripción..."
+                 class="form-control">
+        </div>
+
+        <div class="col-6 col-md-2">
+          <label class="form-label">Año</label>
+          <select name="year" class="form-select">
+            <option value="">Todos</option>
+            <% (years || []).forEach(function(y) { %>
+              <option value="<%= y %>" <%= String(filters.year||'')===String(y) ? 'selected' : '' %>><%= y %></option>
+            <% }) %>
+          </select>
+        </div>
+
+        <div class="col-6 col-md-2">
+          <label class="form-label">Talla</label>
+          <select name="size" class="form-select">
+            <option value="">Todas</option>
+            <% (sizesAvail || []).forEach(function(sz) { %>
+              <option value="<%= sz %>" <%= String(filters.size||'')===String(sz) ? 'selected' : '' %>><%= sz %></option>
+            <% }) %>
+          </select>
+        </div>
+
+        <div class="col-6 col-md-2">
+          <label class="form-label">Precio mín.</label>
+          <input type="number" step="0.01" name="min" value="<%= filters.min || '' %>" class="form-control">
+        </div>
+
+        <div class="col-6 col-md-2">
+          <label class="form-label">Precio máx.</label>
+          <input type="number" step="0.01" name="max" value="<%= filters.max || '' %>" class="form-control">
+        </div>
+
+        <div class="col-6 col-md-2">
+          <label class="form-label">Orden</label>
+          <select name="sort" class="form-select">
+            <option value="">Relevancia</option>
+            <option value="price_asc"  <%= filters.sort==='price_asc'?'selected':'' %>>Precio: menor a mayor</option>
+            <option value="price_desc" <%= filters.sort==='price_desc'?'selected':'' %>>Precio: mayor a menor</option>
+            <option value="year_desc"  <%= filters.sort==='year_desc'?'selected':'' %>>Año: nuevo a antiguo</option>
+            <option value="year_asc"   <%= filters.sort==='year_asc'?'selected':'' %>>Año: antiguo a nuevo</option>
+            <option value="name_asc"   <%= filters.sort==='name_asc'?'selected':'' %>>Nombre: A-Z</option>
+          </select>
+        </div>
+
+        <div class="col-12 col-md-auto ms-auto">
+          <button class="btn btn-primary"><i class="bi bi-funnel me-1"></i> Aplicar</button>
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <!-- GRID DE PRODUCTOS -->
+  <section class="container pb-5">
+    <div class="row g-4">
+      <% if (!shirts || shirts.length === 0) { %>
+        <div class="col-12">
+          <div class="alert alert-light border">No se encontraron productos con esos filtros.</div>
+        </div>
+      <% } %>
+
+      <% (shirts || []).forEach(function(shirt) { %>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="product-card h-100">
+            <img src="<%= shirt.image %>" alt="Camiseta <%= shirt.team %> <%= shirt.year %>" class="product-thumb">
+            <div class="product-body d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <span class="badge badge-year"><%= shirt.year %></span>
+                <span class="product-price">$<%= shirt.price %></span>
+              </div>
+              <h6 class="mb-2"><%= shirt.team %></h6>
+              <p class="text-muted small flex-grow-1"><%= (shirt.description || '').slice(0, 90) %></p>
+              <a href="/shirts/<%= shirt.id %>" class="btn btn-sm btn-outline-primary mt-2">Ver detalles</a>
+            </div>
+          </div>
+        </div>
+      <% }); %>
+    </div>
+  </section>
+
+  <%- include('footer') %>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

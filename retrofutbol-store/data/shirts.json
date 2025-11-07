@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "team": "Colombia",
+    "year": 1990,
+    "price": 65,
+    "image": "/images/colombia1990.jpg",
+    "description": "Camiseta icónica de Colombia en el Mundial de Italia 90.",
+    "video": "https://www.youtube.com/embed/ZDKBeiza0h4",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6022359419156!2d-74.06733228574169!3d4.654359443213009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a76f2d2b52d%3A0xc3f1f3b398a8a4f4!2sEstadio%20Nacional%20El%20Camp%C3%ADn!5e0!3m2!1ses!2sau!4v1628109033285!5m2!1ses!2sau",
+    "sizes": [
+      {
+        "size": "S",
+        "stock": "20"
+      },
+      {
+        "size": "M",
+        "stock": "20"
+      },
+      {
+        "size": "L",
+        "stock": 19
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "team": "Argentina",
+    "year": 1986,
+    "price": 70,
+    "image": "/images/argentina1986.jpg",
+    "description": "Maradona y la 'mano de Dios' en esta histórica camiseta.",
+    "video": "https://www.youtube.com/embed/KY40__rBvSk",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.5133644268686!2d-99.15049368571556!3d19.30906844855021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff370a2569e5%3A0x88922880902c3886!2sEstadio%20Azteca!5e0!3m2!1ses!2sau!4v1628108848710!5m2!1ses!2sau",
+    "sizes": [
+      {
+        "size": "S",
+        "stock": "20"
+      },
+      {
+        "size": "M",
+        "stock": "20"
+      },
+      {
+        "size": "L",
+        "stock": "20"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "team": "Brasil",
+    "year": 1970,
+    "price": 80,
+    "image": "/images/brasil1970.jpg",
+    "description": "Pelé y el Brasil campeón del mundo con este uniforme.",
+    "video": "https://www.youtube.com/embed/B6y_Q930e_g",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.8876251210877!2d-43.23071868577317!3d-22.912226843477813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fb6a111b11b%3A0x6b772c9d6f6e5e8e!2sEst%C3%A1dio%20do%20Maracan%C3%A3!5e0!3m2!1ses!2sau!4v1628109156550!5m2!1ses!2sau",
+    "sizes": [
+      {
+        "size": "S",
+        "stock": 20
+      },
+      {
+        "size": "M",
+        "stock": 20
+      },
+      {
+        "size": "L",
+        "stock": 20
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "team": "ATL Nacional ",
+    "year": 1989,
+    "price": 90,
+    "image": "/images/Nacional1989.jpg",
+    "description": "Campeones de américa",
+    "video": "https://www.youtube.com/embed/gndIRZQF3iQ?si=LvpL-ymyEjkvPIjV",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.052821012234!2d-75.59274782627203!3d6.2567723262080595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44290e4f870f69%3A0xf57f97b59ef52c39!2sEstadio%20de%20F%C3%BAtbol%20Atanasio%20Girardot!5e0!3m2!1ses-419!2sau!4v1756433803359!5m2!1ses-419!2sau",
+    "sizes": [
+      {
+        "size": "S",
+        "stock": 20
+      },
+      {
+        "size": "M",
+        "stock": 20
+      },
+      {
+        "size": "L",
+        "stock": 15
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "team": "ATL Nacional ",
+    "year": 2016,
+    "price": 68,
+    "image": "/images/Nacional2016.jpg",
+    "description": "Libertador 2",
+    "video": "https://www.youtube.com/embed/kz6ucs0HhP4?si=B6A8OyCB65B_ijAW",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.052821012234!2d-75.59274782627203!3d6.2567723262080595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44290e4f870f69%3A0xf57f97b59ef52c39!2sEstadio%20de%20F%C3%BAtbol%20Atanasio%20Girardot!5e0!3m2!1ses-419!2sau!4v1756433803359!5m2!1ses-419!2sau",
+    "sizes": [
+      {
+        "size": "S",
+        "stock": 20
+      },
+      {
+        "size": "M",
+        "stock": 20
+      },
+      {
+        "size": "L",
+        "stock": 20
+      }
+    ]
+  }
+]

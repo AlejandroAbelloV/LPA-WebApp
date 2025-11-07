@@ -1,0 +1,322 @@
+[
+  {
+    "lpa_invitem_no": "INV1757651842412-1",
+    "lpa_invitem_inv_no": "INV1757651842412",
+    "lpa_invitem_stock_ID": "4",
+    "lpa_invitem_stock_name": "ATL Nacional  1989",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 90,
+    "lpa_invitem_stock_amount": 90,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1757652641577-1",
+    "lpa_invitem_inv_no": "INV1757652641577",
+    "lpa_invitem_stock_ID": "1",
+    "lpa_invitem_stock_name": "Colombia 1990",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 65,
+    "lpa_invitem_stock_amount": 65,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1757652647312-1",
+    "lpa_invitem_inv_no": "INV1757652647312",
+    "lpa_invitem_stock_ID": "1",
+    "lpa_invitem_stock_name": "Colombia 1990",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 65,
+    "lpa_invitem_stock_amount": 65,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1757652652846-1",
+    "lpa_invitem_inv_no": "INV1757652652846",
+    "lpa_invitem_stock_ID": "1",
+    "lpa_invitem_stock_name": "Colombia 1990",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 65,
+    "lpa_invitem_stock_amount": 65,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1757652657044-1",
+    "lpa_invitem_inv_no": "INV1757652657044",
+    "lpa_invitem_stock_ID": "1",
+    "lpa_invitem_stock_name": "Colombia 1990",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 65,
+    "lpa_invitem_stock_amount": 65,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1757652667061-1",
+    "lpa_invitem_inv_no": "INV1757652667061",
+    "lpa_invitem_stock_ID": "1",
+    "lpa_invitem_stock_name": "Colombia 1990",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 65,
+    "lpa_invitem_stock_amount": 65,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1757652684387-1",
+    "lpa_invitem_inv_no": "INV1757652684387",
+    "lpa_invitem_stock_ID": "1",
+    "lpa_invitem_stock_name": "Colombia 1990",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 65,
+    "lpa_invitem_stock_amount": 65,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1757652684387-2",
+    "lpa_invitem_inv_no": "INV1757652684387",
+    "lpa_invitem_stock_ID": "3",
+    "lpa_invitem_stock_name": "Brasil 1970",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 80,
+    "lpa_invitem_stock_amount": 80,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1757652687765-1",
+    "lpa_invitem_inv_no": "INV1757652687765",
+    "lpa_invitem_stock_ID": "1",
+    "lpa_invitem_stock_name": "Colombia 1990",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 65,
+    "lpa_invitem_stock_amount": 65,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1757652687765-2",
+    "lpa_invitem_inv_no": "INV1757652687765",
+    "lpa_invitem_stock_ID": "3",
+    "lpa_invitem_stock_name": "Brasil 1970",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 80,
+    "lpa_invitem_stock_amount": 80,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1757652812619-1",
+    "lpa_invitem_inv_no": "INV1757652812619",
+    "lpa_invitem_stock_ID": "1",
+    "lpa_invitem_stock_name": "Colombia 1990",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 65,
+    "lpa_invitem_stock_amount": 65,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1757652812619-2",
+    "lpa_invitem_inv_no": "INV1757652812619",
+    "lpa_invitem_stock_ID": "3",
+    "lpa_invitem_stock_name": "Brasil 1970",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 80,
+    "lpa_invitem_stock_amount": 80,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1757652812619-3",
+    "lpa_invitem_inv_no": "INV1757652812619",
+    "lpa_invitem_stock_ID": "1",
+    "lpa_invitem_stock_name": "Colombia 1990",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 65,
+    "lpa_invitem_stock_amount": 65,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1757652812619-4",
+    "lpa_invitem_inv_no": "INV1757652812619",
+    "lpa_invitem_stock_ID": "3",
+    "lpa_invitem_stock_name": "Brasil 1970",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 80,
+    "lpa_invitem_stock_amount": 80,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1758237225453-1",
+    "lpa_invitem_inv_no": "INV1758237225453",
+    "lpa_invitem_stock_ID": "1",
+    "lpa_invitem_stock_name": "Colombia 1990",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 65,
+    "lpa_invitem_stock_amount": 65,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1758237225453-2",
+    "lpa_invitem_inv_no": "INV1758237225453",
+    "lpa_invitem_stock_ID": "4",
+    "lpa_invitem_stock_name": "ATL Nacional  1989",
+    "lpa_invitem_qty": "2",
+    "lpa_invitem_stock_price": 90,
+    "lpa_invitem_stock_amount": 180,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1758237229404-1",
+    "lpa_invitem_inv_no": "INV1758237229404",
+    "lpa_invitem_stock_ID": "1",
+    "lpa_invitem_stock_name": "Colombia 1990",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 65,
+    "lpa_invitem_stock_amount": 65,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1758237229404-2",
+    "lpa_invitem_inv_no": "INV1758237229404",
+    "lpa_invitem_stock_ID": "4",
+    "lpa_invitem_stock_name": "ATL Nacional  1989",
+    "lpa_invitem_qty": "2",
+    "lpa_invitem_stock_price": 90,
+    "lpa_invitem_stock_amount": 180,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1758237234506-1",
+    "lpa_invitem_inv_no": "INV1758237234506",
+    "lpa_invitem_stock_ID": "1",
+    "lpa_invitem_stock_name": "Colombia 1990",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 65,
+    "lpa_invitem_stock_amount": 65,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1758237234506-2",
+    "lpa_invitem_inv_no": "INV1758237234506",
+    "lpa_invitem_stock_ID": "4",
+    "lpa_invitem_stock_name": "ATL Nacional  1989",
+    "lpa_invitem_qty": "2",
+    "lpa_invitem_stock_price": 90,
+    "lpa_invitem_stock_amount": 180,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1758250619895-1",
+    "lpa_invitem_inv_no": "INV1758250619895",
+    "lpa_invitem_stock_ID": "2",
+    "lpa_invitem_stock_name": "Argentina 1986",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 70,
+    "lpa_invitem_stock_amount": 70,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1758250619895-2",
+    "lpa_invitem_inv_no": "INV1758250619895",
+    "lpa_invitem_stock_ID": "3",
+    "lpa_invitem_stock_name": "Brasil 1970",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 80,
+    "lpa_invitem_stock_amount": 80,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1758250619895-3",
+    "lpa_invitem_inv_no": "INV1758250619895",
+    "lpa_invitem_stock_ID": "4",
+    "lpa_invitem_stock_name": "ATL Nacional  1989",
+    "lpa_invitem_qty": "3",
+    "lpa_invitem_stock_price": 90,
+    "lpa_invitem_stock_amount": 270,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1761262272460-1",
+    "lpa_invitem_inv_no": "INV1761262272460",
+    "lpa_invitem_stock_ID": "1",
+    "lpa_invitem_stock_name": "Colombia 1990",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 65,
+    "lpa_invitem_stock_amount": 65,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1761264154942-1",
+    "lpa_invitem_inv_no": "INV1761264154942",
+    "lpa_invitem_stock_ID": "1",
+    "lpa_invitem_stock_name": "Colombia 1990",
+    "lpa_invitem_qty": "35",
+    "lpa_invitem_stock_price": 65,
+    "lpa_invitem_stock_amount": 2275,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1761264219850-1",
+    "lpa_invitem_inv_no": "INV1761264219850",
+    "lpa_invitem_stock_ID": "1",
+    "lpa_invitem_stock_name": "Colombia 1990",
+    "lpa_invitem_qty": "20",
+    "lpa_invitem_stock_price": 65,
+    "lpa_invitem_stock_amount": 1300,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1761281446795-1",
+    "lpa_invitem_inv_no": "INV1761281446795",
+    "lpa_invitem_stock_ID": "4",
+    "lpa_invitem_stock_name": "ATL Nacional  1989",
+    "lpa_invitem_qty": "2",
+    "lpa_invitem_stock_price": 90,
+    "lpa_invitem_stock_amount": 180,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1761472764373-1",
+    "lpa_invitem_inv_no": "INV1761472764373",
+    "lpa_invitem_stock_ID": "4",
+    "lpa_invitem_stock_name": "ATL Nacional  1989",
+    "lpa_invitem_qty": "2",
+    "lpa_invitem_stock_price": 90,
+    "lpa_invitem_stock_amount": 180,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1761873222225-1",
+    "lpa_invitem_inv_no": "INV1761873222225",
+    "lpa_invitem_stock_ID": "1",
+    "lpa_invitem_stock_name": "Colombia 1990",
+    "lpa_invitem_qty": "2",
+    "lpa_invitem_stock_price": 65,
+    "lpa_invitem_stock_amount": 130,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1762472848651-1",
+    "lpa_invitem_inv_no": "INV1762472848651",
+    "lpa_invitem_stock_ID": "2",
+    "lpa_invitem_stock_name": "Argentina 1986",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 70,
+    "lpa_invitem_stock_amount": 70,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1762478249195-1",
+    "lpa_invitem_inv_no": "INV1762478249195",
+    "lpa_invitem_stock_ID": "1",
+    "lpa_invitem_stock_name": "Colombia 1990",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 65,
+    "lpa_invitem_stock_amount": 65,
+    "lpa_inv_status": "P"
+  },
+  {
+    "lpa_invitem_no": "INV1762478249195-2",
+    "lpa_invitem_inv_no": "INV1762478249195",
+    "lpa_invitem_stock_ID": "4",
+    "lpa_invitem_stock_name": "ATL Nacional  1989",
+    "lpa_invitem_qty": "1",
+    "lpa_invitem_stock_price": 90,
+    "lpa_invitem_stock_amount": 90,
+    "lpa_inv_status": "P"
+  }
+]

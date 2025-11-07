@@ -1,0 +1,212 @@
+[
+  {
+    "lpa_inv_no": "INV1757651842412",
+    "lpa_inv_date": "2025-09-12T04:37:22.413Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 90,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "MasterCard"
+  },
+  {
+    "lpa_inv_no": "INV1757652641577",
+    "lpa_inv_date": "2025-09-12T04:50:41.577Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 65,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "PayPal"
+  },
+  {
+    "lpa_inv_no": "INV1757652647312",
+    "lpa_inv_date": "2025-09-12T04:50:47.312Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 65,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "VISA"
+  },
+  {
+    "lpa_inv_no": "INV1757652652846",
+    "lpa_inv_date": "2025-09-12T04:50:52.846Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 65,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "MasterCard"
+  },
+  {
+    "lpa_inv_no": "INV1757652657044",
+    "lpa_inv_date": "2025-09-12T04:50:57.045Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 65,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "Direct deposit"
+  },
+  {
+    "lpa_inv_no": "INV1757652667061",
+    "lpa_inv_date": "2025-09-12T04:51:07.061Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 65,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "PayPal"
+  },
+  {
+    "lpa_inv_no": "INV1757652684387",
+    "lpa_inv_date": "2025-09-12T04:51:24.388Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 145,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "PayPal"
+  },
+  {
+    "lpa_inv_no": "INV1757652687765",
+    "lpa_inv_date": "2025-09-12T04:51:27.765Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 145,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "PayPal"
+  },
+  {
+    "lpa_inv_no": "INV1757652812619",
+    "lpa_inv_date": "2025-09-12T04:53:32.620Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 290,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "PayPal"
+  },
+  {
+    "lpa_inv_no": "INV1758237225453",
+    "lpa_inv_date": "2025-09-18T23:13:45.466Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 245,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "VISA"
+  },
+  {
+    "lpa_inv_no": "INV1758237229404",
+    "lpa_inv_date": "2025-09-18T23:13:49.404Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 245,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "PayPal"
+  },
+  {
+    "lpa_inv_no": "INV1758237234506",
+    "lpa_inv_date": "2025-09-18T23:13:54.507Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 245,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "PayPal"
+  },
+  {
+    "lpa_inv_no": "INV1758250619895",
+    "lpa_inv_date": "2025-09-19T02:56:59.897Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 420,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "PayPal"
+  },
+  {
+    "lpa_inv_no": "INV1761262272460",
+    "lpa_inv_date": "2025-10-23T23:31:12.461Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 65,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "VISA"
+  },
+  {
+    "lpa_inv_no": "INV1761264154942",
+    "lpa_inv_date": "2025-10-24T00:02:34.943Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 2275,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "PayPal"
+  },
+  {
+    "lpa_inv_no": "INV1761264219850",
+    "lpa_inv_date": "2025-10-24T00:03:39.851Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 1300,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "PayPal"
+  },
+  {
+    "lpa_inv_no": "INV1761281446795",
+    "lpa_inv_date": "2025-10-24T04:50:46.795Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 180,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "VISA"
+  },
+  {
+    "lpa_inv_no": "INV1761472764373",
+    "lpa_inv_date": "2025-10-26T09:59:24.374Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 180,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "paypal"
+  },
+  {
+    "lpa_inv_no": "INV1761873222225",
+    "lpa_inv_date": "2025-10-31T01:13:42.226Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 130,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "card"
+  },
+  {
+    "lpa_inv_no": "INV1762472848651",
+    "lpa_inv_date": "2025-11-06T23:47:28.654Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 70,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "paypal"
+  },
+  {
+    "lpa_inv_no": "INV1762478249195",
+    "lpa_inv_date": "2025-11-07T01:17:29.195Z",
+    "lpa_inv_client_ID": "U1001",
+    "lpa_inv_client_name": "John Doe",
+    "lpa_inv_client_address": "123 Sample Street, Brisbane",
+    "lpa_inv_amount": 155,
+    "lpa_inv_status": "P",
+    "lpa_inv_paymethod": "paypal"
+  }
+]

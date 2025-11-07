@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+
+<body>
+  <%- include('nav') %>
+
+  <div class="container mt-4">
+    <h1>Checkout</h1>
+
+    <% if ((cart || []).length === 0) { %>
+      <div class="alert alert-info mt-3">Tu carrito está vacío. <a href="/shirts">Volver a la tienda</a></div>
+    <% } else { %>
+
+      <form method="POST" action="/checkout/update">
+        <table class="table table-striped align-middle">
+          <thead>
+            <tr>
+              <th>Product Code</th>
+              <th>Product Name</th>
+              <th>Price</th>
+              <th>QTY</th>
+              <th>Amount</th>
+              <th>Remove</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% cart.forEach(function(item){ %>
+              <tr>
+                <td><%= item.code %></td>
+                <td><%= item.name %> - Size <%= item.selectedSize %></td>
+                <td>$<%= item.price %></td>
+                <td style="max-width:120px">
+                  <input type="number" min="1" class="form-control" name="qty[<%= item.key %>]" value="<%= item.qty %>">
+                </td>
+                <td>$<%= (item.price * item.qty).toFixed(2) %></td>
+                <td>
+                  <form method="POST" action="/checkout/remove/<%= item.key %>">
+                    <button class="btn btn-sm btn-danger">Remove</button>
+                  </form>
+                </td>
+              </tr>
+            <% }) %>
+            <tr>
+              <td colspan="4" class="text-end fw-bold">Total</td>
+              <td class="fw-bold">$<%= subtotal.toFixed(2) %></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="d-flex gap-2 justify-content-end">
+          <button class="btn btn-outline-primary" type="submit">Update</button>
+      </form>
+          <form method="POST" action="/checkout/confirm">
+            <button class="btn btn-success" type="submit">Confirm</button>
+          </form>
+        </div>
+    <% } %>
+  </div>
+  <%- include('footer') %>
+</body>
+</html>

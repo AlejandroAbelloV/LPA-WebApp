@@ -1,0 +1,82 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-uppercase" href="/">
+      RetroFutbol <span class="text-primary">Store</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <!-- izquierda -->
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link" href="/shirts">Tienda</a></li>
+        <li class="nav-item"><a class="nav-link" href="/cart">Carrito</a></li>
+      </ul>
+
+      <% 
+        const hasSession = typeof session !== 'undefined' && session;
+        const customer = hasSession && session.customer ? session.customer : null;
+        const isAdmin  = hasSession && session.authUser === 'admin';
+      %>
+
+      <!-- derecha -->
+      <ul class="navbar-nav align-items-center">
+        <% if (!customer && !isAdmin) { %>
+          <!-- Nadie logueado: un solo botón que sirve para ambos accesos -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="loginDropdown" role="button"
+               data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person"></i> Log in
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="loginDropdown">
+              <li><a class="dropdown-item" href="/customer/login"><i class="bi bi-bag"></i> Customer</a></li>
+              <li><a class="dropdown-item" href="/login"><i class="bi bi-shield-lock"></i> Admin</a></li>
+            </ul>
+          </li>
+        <% } %>
+
+        <% if (customer) { %>
+          <!-- Cliente logueado -->
+          <li class="nav-item">
+            <span class="navbar-text text-light me-2">
+              Hola, <strong><%= customer.firstname || customer.username || 'cliente' %></strong>
+            </span>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="/customer/logout">Cerrar sesión</a></li>
+
+          <!-- Acceso admin visible incluso con cliente logueado -->
+          <li class="nav-item dropdown ms-2">
+            <a class="nav-link dropdown-toggle" href="#" id="moreDropdown1" role="button"
+               data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-three-dots-vertical"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="moreDropdown1">
+              <li><a class="dropdown-item" href="/login"><i class="bi bi-shield-lock"></i> Acceso Administrador</a></li>
+            </ul>
+          </li>
+        <% } %>
+
+        <% if (isAdmin) { %>
+          <!-- Admin logueado -->
+          <li class="nav-item"><a class="nav-link" href="/admin">Panel Admin</a></li>
+          <li class="nav-item"><a class="nav-link" href="/logout">Salir Admin</a></li>
+
+          <!-- Acceso cliente visible incluso con admin logueado -->
+          <li class="nav-item dropdown ms-2">
+            <a class="nav-link dropdown-toggle" href="#" id="moreDropdown2" role="button"
+               data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-three-dots-vertical"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="moreDropdown2">
+              <li><a class="dropdown-item" href="/customer/login"><i class="bi bi-bag"></i> Acceso Cliente</a></li>
+            </ul>
+          </li>
+        <% } %>
+      </ul>
+    </div>
+  </div>
+</nav>
+

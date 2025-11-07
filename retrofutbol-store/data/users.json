@@ -1,0 +1,13 @@
+[
+  {
+    "lpa_user_ID": "U1001",
+    "lpa_user_username": "customer",
+    "lpa_user_password": "12345",
+    "lpa_user_firstname": "John",
+    "lpa_user_lastname": "Doe",
+    "lpa_user_address": "123 Sample Street, Brisbane",
+    "lpa_user_phonenumber": "0400000000",
+    "lpa_user_group": "customer",
+    "lpa_user_status": "A"
+  }
+]

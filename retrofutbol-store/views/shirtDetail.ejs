@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title><%= shirt.team %> <%= shirt.year %> — Retro Futbol Store</title>
+
+  <!-- Bootstrap + Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="/stylesheets/style.css"/>
+
+  <style>
+    .subhero {
+      background: linear-gradient(180deg, rgba(13,110,253,.08), rgba(13,110,253,0));
+      padding: 18px 0;
+      border-bottom: 1px solid rgba(0,0,0,.06);
+    }
+    .prod-img {
+      border-radius: 16px;
+      box-shadow: 0 12px 28px rgba(0,0,0,.12);
+    }
+    .sticky-box {
+      position: sticky;
+      top: 90px;
+    }
+    .size-chip {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 48px;
+      padding: .5rem .75rem;
+      border: 1px solid #dee2e6;
+      border-radius: 999px;
+      background: #fff;
+      cursor: pointer;
+      user-select: none;
+      transition: all .15s ease;
+      font-weight: 600;
+    }
+    .size-chip:hover { border-color: #0d6efd; }
+    .size-chip.disabled {
+      opacity: .45; cursor: not-allowed; text-decoration: line-through;
+    }
+    .size-chip.active {
+      border-color: #0d6efd; background: #0d6efd10; color: #0d6efd;
+    }
+    .stock-pill {
+      font-size: .85rem;
+      border: 1px solid rgba(0,0,0,.08);
+      background: #fff;
+    }
+    .tab-embed iframe { border:0; width:100%; height:100%; }
+    .price-hero {
+      background: #ffffff;
+      border: 1px solid rgba(0,0,0,.06);
+      border-radius: 16px;
+      padding: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <%- include('nav') %>
+
+  <!-- Subheader / breadcrumb -->
+  <section class="subhero">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-1">
+          <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+          <li class="breadcrumb-item"><a href="/shirts">Tienda</a></li>
+          <li class="breadcrumb-item active" aria-current="page"><%= shirt.team %> <%= shirt.year %></li>
+        </ol>
+      </nav>
+      <h1 class="h3 m-0"><%= shirt.team %> <span class="text-muted">(<%= shirt.year %>)</span></h1>
+    </div>
+  </section>
+
+  <main class="container my-4">
+    <div class="row g-4">
+      <!-- Columna imagen -->
+      <div class="col-12 col-lg-6">
+        <img
+          src="<%= shirt.image %>"
+          alt="Camiseta <%= shirt.team %> <%= shirt.year %>"
+          class="img-fluid prod-img"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+
+      <!-- Columna info (sticky) -->
+      <div class="col-12 col-lg-6">
+        <div class="sticky-box">
+          <div class="price-hero mb-3 d-flex align-items-center justify-content-between">
+            <div>
+              <div class="text-muted small">Precio</div>
+              <div class="h3 text-success m-0">$<%= shirt.price %></div>
+            </div>
+            <span class="badge stock-pill">
+              <i class="bi bi-flag me-1"></i> <%= shirt.team %> • <%= shirt.year %>
+            </span>
+          </div>
+
+          <p class="text-secondary"><%= shirt.description %></p>
+
+          <!-- Formulario: talla + cantidad + añadir -->
+          <form action="/shirts/add-to-cart/<%= shirt.id %>" method="POST" class="mt-3" id="addCartForm">
+            <!-- Tallas como chips -->
+            <div class="mb-3">
+              <label class="form-label fw-bold">Talla</label>
+              <div class="d-flex flex-wrap gap-2">
+                <% if (shirt.sizes && Array.isArray(shirt.sizes) && shirt.sizes.length) { %>
+                  <% shirt.sizes.forEach(function(size, idx) { 
+                       const stockNum = Number(size.stock) || 0;
+                       const disabled = stockNum === 0;
+                  %>
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      name="size"
+                      id="size_<%= idx %>"
+                      value="<%= size.size %>"
+                      autocomplete="off"
+                      <%= disabled ? 'disabled' : '' %>
+                      data-stock="<%= stockNum %>"
+                    />
+                    <label
+                      class="size-chip <%= disabled ? 'disabled' : '' %>"
+                      for="size_<%= idx %>"
+                      title="<%= disabled ? 'Sin stock' : (size.size + ' (' + stockNum + ' en stock)') %>"
+                    ><%= size.size %></label>
+                  <% }); %>
+                <% } else { %>
+                  <div class="text-muted small">No hay tallas disponibles</div>
+                <% } %>
+              </div>
+            </div>
+
+            <!-- Cantidad -->
+            <div class="mb-3 d-flex align-items-center gap-3">
+              <div>
+                <label for="qty" class="form-label fw-bold">Cantidad</label>
+                <input
+                  type="number"
+                  id="qty"
+                  name="qty"
+                  value="1"
+                  min="1"
+                  class="form-control"
+                  style="max-width:120px"
+                />
+              </div>
+              <div id="stockHint" class="text-muted small"></div>
+            </div>
+
+            <!-- CTA -->
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-dark btn-lg" id="btnAddCart" disabled>
+                <i class="bi bi-bag-plus"></i> Añadir al carrito
+              </button>
+              <div class="d-flex gap-2">
+                <a href="/shirts" class="btn btn-outline-primary w-100"><i class="bi bi-arrow-left"></i> Volver a la tienda</a>
+                <a href="/cart" class="btn btn-outline-secondary w-100"><i class="bi bi-cart3"></i> Ver carrito</a>
+              </div>
+            </div>
+          </form>
+
+          <!-- Tabs: Video / Mapa -->
+          <ul class="nav nav-tabs mt-4" id="mediaTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="video-tab" data-bs-toggle="tab" data-bs-target="#videoTab" type="button" role="tab" aria-controls="videoTab" aria-selected="true">
+                <i class="bi bi-play-circle"></i> Video
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="map-tab" data-bs-toggle="tab" data-bs-target="#mapTab" type="button" role="tab" aria-controls="mapTab" aria-selected="false">
+                <i class="bi bi-geo-alt"></i> Mapa
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content border rounded-bottom p-3 tab-embed" style="height: 360px;">
+            <div class="tab-pane fade show active h-100" id="videoTab" role="tabpanel" aria-labelledby="video-tab">
+              <% if (shirt.video) { %>
+                <iframe
+                  src="<%= shirt.video %>"
+                  title="Video de la camiseta"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              <% } else { %>
+                <p class="text-muted">Video no disponible.</p>
+              <% } %>
+            </div>
+            <div class="tab-pane fade h-100" id="mapTab" role="tabpanel" aria-labelledby="map-tab">
+              <% if (shirt.map) { %>
+                <iframe
+                  src="<%= shirt.map %>"
+                  title="Ubicación del equipo"
+                  loading="lazy"
+                  allowfullscreen
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              <% } else { %>
+                <p class="text-muted">Mapa no disponible.</p>
+              <% } %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <%- include('footer') %>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    (function () {
+      const radios = document.querySelectorAll('input[name="size"]');
+      const qty    = document.getElementById('qty');
+      const hint   = document.getElementById('stockHint');
+      const btn    = document.getElementById('btnAddCart');
+
+      function updateMaxFromSelected() {
+        const selected = Array.from(radios).find(r => r.checked);
+        if (!selected) {
+          btn.disabled = true;
+          hint.textContent = 'Selecciona una talla para ver disponibilidad.';
+          qty.value = 1;
+          qty.removeAttribute('max');
+          return;
+        }
+        const stock = parseInt(selected.dataset.stock || '0', 10);
+        qty.setAttribute('max', String(Math.max(1, stock)));
+        if (parseInt(qty.value || '1', 10) > stock) qty.value = stock || 1;
+        hint.textContent = stock > 0 ? `Disponibles: ${stock} unidad(es)` : 'Sin stock';
+        btn.disabled = stock <= 0;
+      }
+
+      radios.forEach(r => r.addEventListener('change', updateMaxFromSelected));
+      qty.addEventListener('input', function(){
+        const max = parseInt(qty.getAttribute('max') || '0', 10);
+        const v   = parseInt(qty.value || '1', 10);
+        if (max && v > max) qty.value = max;
+        if (v < 1 || isNaN(v)) qty.value = 1;
+      });
+
+      // Inicial
+      updateMaxFromSelected();
+    })();
+  </script>
+</body>
+</html>
+
